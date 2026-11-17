@@ -1,0 +1,465 @@
+{
+  "_meta": {
+    "mo_ta": "Kho số liệu chứng minh — dùng cho các frame 'con số biết nói' trong video. Mỗi số đều kèm nguồn để đối chiếu.",
+    "cap_nhat": "2026-09-08",
+    "nguyen_tac": "KHÔNG lên hình con số nào không có trong file này. Cần số mới → tìm trong 01-source-data rồi bổ sung vào đây trước."
+  },
+  "quy_mo_trien_khai": [
+    {
+      "so": "200+",
+      "y_nghia": "nhà hàng Golden Gate đã triển khai robot",
+      "nguon": "bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf"
+    },
+    {
+      "so": "120",
+      "y_nghia": "BellaBot vào vận hành đồng loạt trong một đợt tại TP.HCM — kỷ lục quy mô triển khai robot phục vụ ngành F&B Việt Nam",
+      "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx"
+    },
+    {
+      "so": "15/34",
+      "y_nghia": "tỉnh thành có mặt BellaBot & BellaBot Pro",
+      "nguon": "bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf"
+    },
+    {
+      "so": "400+",
+      "y_nghia": "nhà hàng trong hệ sinh thái Golden Gate toàn quốc",
+      "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx"
+    },
+    {
+      "so": "60+",
+      "y_nghia": "quốc gia tin dùng robot PUDU",
+      "nguon": "bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf"
+    },
+    {
+      "so": "80.000+",
+      "y_nghia": "robot PUDU đã bàn giao toàn cầu",
+      "nguon": "bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf"
+    }
+  ],
+  "nang_luc_roboworld": [
+    {
+      "so": "30+",
+      "y_nghia": "đại lý & đối tác chiến lược",
+      "nguon": "catalogue-bellabot-pro-hanh-chinh-cong.pdf"
+    },
+    {
+      "so": "30+",
+      "y_nghia": "kỹ sư Robotics giàu kinh nghiệm",
+      "nguon": "catalogue-bellabot-pro-hanh-chinh-cong.pdf"
+    },
+    {
+      "so": "100+",
+      "y_nghia": "lượt demo & phản hồi tích cực",
+      "nguon": "catalogue-bellabot-pro-hanh-chinh-cong.pdf"
+    },
+    {
+      "so": "24/7 · 90%+",
+      "y_nghia": "hỗ trợ kỹ thuật, trên 90% sự cố xử lý từ xa qua hệ thống IoT của PUDU",
+      "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx"
+    }
+  ],
+  "hieu_qua_van_hanh": {
+    "ghi_chu": "Bảng so sánh 'chỉ dùng nhân viên' vs 'kết hợp robot' — chất liệu mạnh nhất cho video giải thích.",
+    "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx",
+    "so_sanh": [
+      {
+        "tieu_chi": "Quãng đường nhân viên di chuyển/ca",
+        "truoc": "8 – 12 km/người",
+        "sau": "1 – 3 km/người"
+      },
+      {
+        "tieu_chi": "Số lượt vận chuyển món/ngày",
+        "truoc": "150 – 200 lượt/người",
+        "sau": "240 – 300 lượt/robot"
+      },
+      {
+        "tieu_chi": "Khả năng vận chuyển đồng thời",
+        "truoc": "1 – 2 món/lượt",
+        "sau": "Tới 4 bàn/lượt (40 kg)"
+      },
+      {
+        "tieu_chi": "Thời gian dành cho tương tác khách",
+        "truoc": "~10%",
+        "sau": "~70 – 80%"
+      },
+      {
+        "tieu_chi": "Tỷ lệ nghỉ việc nhân viên",
+        "truoc": "Cao",
+        "sau": "Giảm rõ rệt"
+      },
+      {
+        "tieu_chi": "Sai sót khi bê món (đổ, vỡ)",
+        "truoc": "Khả năng cao",
+        "sau": "Gần như 0 (giảm xóc tự động)"
+      },
+      {
+        "tieu_chi": "Trải nghiệm khách hàng",
+        "truoc": "Tùy thuộc nhân viên",
+        "sau": "Đồng đều, có yếu tố mới lạ"
+      },
+      {
+        "tieu_chi": "Vận hành 24/7",
+        "truoc": "Không",
+        "sau": "Có (pin sạc nhanh/tháo rời)"
+      }
+    ]
+  },
+  "noi_dau_nganh_fnb": {
+    "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx",
+    "cac_y": [
+      "Nhân viên phục vụ dành 8–10 tiếng/ngày chỉ để bê bưng, đi lại giữa bếp và bàn — công việc lặp lại, KHÔNG tạo giá trị gia tăng, và nhân viên nhận thức rõ điều đó. Khi con người làm việc không có ý nghĩa, họ rời đi. Đây là gốc rễ của tỷ lệ nghỉ việc cao trong ngành F&B.",
+      "Nhân viên dành 70–80% thời gian chỉ để di chuyển và bê đồ",
+      "Khâu tư vấn món, upsell — bước quan trọng nhất để tăng doanh thu/bàn — thường bị làm hời hợt vì nhân viên đã kiệt sức",
+      "Giờ cao điểm không kịp ra món → khách đợi lâu → đánh giá tiêu cực → mất khách",
+      "Khách chờ quá 10 phút cho một món có thể không bao giờ quay lại"
+    ]
+  },
+  "tu_lieu_bao_chi": {
+    "ghi_chu": "Tư liệu truyền hình/báo chí về robot — dùng làm bằng chứng uy tín trên landing và tài liệu bán hàng.",
+    "muc": [
+      {
+        "kenh": "THVL1 — chương trình Người đưa tin 24H",
+        "chu_de": "Ứng dụng robot AI hỗ trợ người bệnh",
+        "dia_diem": "Bệnh viện Nhân dân Gia Định, TP.HCM",
+        "robot": "GreetingBot Nova",
+        "nhan_vat": "BS CKII Nguyễn Minh Bằng — Phó Trưởng khoa Khám bệnh",
+        "file": "02-media/san-pham/greetingbot-nova/video/greetingbot-nova-benh-vien-gia-dinh-thvl1.mp4",
+        "trang_thai": "CHƯA XÁC NHẬN đây có phải hợp đồng của Roboworld hay không — vì vậy chỉ dùng làm tư liệu chứng minh dòng Nova đang chạy tại bệnh viện lớn, KHÔNG liệt kê vào danh sách khách hàng cho đến khi anh Trường xác nhận",
+        "nguon": "anh Trường gửi 30/07/2026"
+      },
+      {
+        "kenh": "VTV2 · VnExpress · CafeBiz",
+        "chu_de": "Robot AI tại trung tâm hành chính công",
+        "dia_diem": "TT Phục vụ Hành chính công phường Mông Dương – Quảng Ninh",
+        "robot": "BellaBot Pro",
+        "file": "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-tt-hanh-chinh-cong-mong-duong.png",
+        "trang_thai": "Đã xác nhận là khách hàng của Roboworld",
+        "nguon": "catalogue-bellabot-pro-hanh-chinh-cong.pdf"
+      }
+    ]
+  },
+  "khach_hang_tieu_bieu": {
+    "golden_gate": {
+      "mo_ta": "Hợp tác chiến lược, triển khai BellaBot & BellaBot Pro tại 200+ nhà hàng",
+      "thuong_hieu": [
+        {
+          "ten": "iSushi",
+          "mo_hinh": "Buffet Nhật Bản",
+          "dac_diem": "Buffet không giới hạn, lưu lượng khách lớn"
+        },
+        {
+          "ten": "Gogi House",
+          "mo_hinh": "Nướng Hàn Quốc",
+          "dac_diem": "Phục vụ nhanh, không gian rộng"
+        },
+        {
+          "ten": "Kichi-Kichi",
+          "mo_hinh": "Lẩu băng chuyền",
+          "dac_diem": "Băng chuyền + robot bổ trợ vận chuyển"
+        },
+        {
+          "ten": "Yu Tang",
+          "mo_hinh": "Ẩm thực Đài Loan",
+          "dac_diem": "Mỳ bò, gà chiên, trà sữa — đa dạng món"
+        },
+        {
+          "ten": "Manwah",
+          "mo_hinh": "Buffet lẩu Đài Loan cao cấp",
+          "dac_diem": "Phân khúc cao cấp, dịch vụ tinh tế"
+        },
+        {
+          "ten": "KPub",
+          "mo_hinh": "Nướng đường phố Hàn Quốc",
+          "dac_diem": "Giờ cao điểm tối, lưu lượng lớn"
+        }
+      ]
+    },
+    "khac": [
+      "WinCommerce (Masan Group) — sự kiện, decal branding riêng & màn quảng cáo hiển thị nhận diện thương hiệu",
+      "Ngân hàng Cake — sự kiện thương hiệu",
+      "Văn phòng Chính phủ · Tòa án Nhân dân — triển lãm Đề án 06, Nghị quyết 57",
+      "TT Hành chính công phường Mông Dương – Quảng Ninh (được VTV2, VnExpress, CafeBiz đưa tin)",
+      "Bệnh viện Việt Nam – Thụy Điển Uông Bí (Quảng Ninh) — đã mua robot lễ tân GreetingBot Nova cho khu vực tiếp đón (anh Trường cung cấp 30/07/2026)",
+      "Đoàn tàu Bạch Mai – Đường sắt Việt Nam",
+      "Bánh tráng Phú Cường · Haidilao",
+      "May 10 (ngành may mặc) · Hyundai Aluminum (robot vận chuyển T300)",
+      "Ngành may mặc — Tinh Lợi · May Tam Quan · May S&D Quảng Bình (anh Trường cung cấp 31/07/2026, chưa kèm số liệu chi tiết)",
+      "Nhà máy Sợi Yên Mỹ – Hưng Yên (robot vệ sinh MT1 Max, có video ghi tại nhà máy: 02-media/san-pham/pudu-mt1-max/video/mt1-max-nha-may-hung-yen-ngang.mp4)",
+      "Nestlé Việt Nam (CC1) · Toshiba Asia (thuê MT1/CC1 rồi mua CC1) · Maxport · YoungOne — theo roboworld.com.vn/du-an, đọc 07/09/2026"
+    ]
+  },
+  "ly_do_hanh_dong_ngay": {
+    "nguon": "catalog-giai-phap-robot-nha-hang-golden-gate.docx",
+    "cac_y": [
+      "Chi phí robot phục vụ đã giảm 30–40% so với 3–5 năm trước, trong khi tính năng tăng gấp đôi",
+      "Khi Golden Gate đã có 200+ nhà hàng dùng robot, khách sẽ bắt đầu kỳ vọng trải nghiệm này ở các chuỗi khác — nhà hàng không kịp chuyển đổi sẽ tự động bị xếp vào phân khúc 'truyền thống'",
+      "Đầu tư sớm = thời gian khấu hao dài hơn = ROI tốt hơn",
+      "Câu hỏi không phải 'có nên ứng dụng robot không?' — mà là 'ứng dụng SỚM để dẫn đầu, hay CHỜ và chạy theo?'"
+    ]
+  },
+  "thong_diep_loi_nhat": {
+    "ghi_chu": "Câu chốt hay dùng mở/đóng video.",
+    "cau": [
+      "Robot phục vụ KHÔNG thay thế con người. Robot thay thế phần công việc cơ học, lặp lại, không tạo giá trị — để con người làm phần việc mà chỉ con người mới làm tốt: tương tác, cảm xúc, chăm sóc.",
+      "Lựa chọn robot không phải bài toán 'dòng nào tốt nhất' — mà là 'dòng nào phù hợp nhất' với mô hình của bạn.",
+      "Chìa khóa thành công nằm ở việc tái thiết kế quy trình vận hành, chứ không chỉ 'mua robot về dùng'."
+    ]
+  },
+  "khach_hang_nganh_may_mac": {
+    "nguon": "https://roboworld.com.vn/giai-phap/nha-may-may-mac/robot-ve-sinh — trang chính thức của Roboworld, đọc ngày 2026-09-04",
+    "ghi_chu": "Số lượng robot ghi theo đúng trang web công ty. Chưa đối chiếu với hợp đồng gốc — nếu anh Trường sửa số thì sửa ở đây trước rồi mới sửa landing.",
+    "danh_sach": [
+      {
+        "ten": "Tinh Lợi",
+        "dia_diem": "Hải Phòng",
+        "nam": "2025",
+        "robot": "50 robot vệ sinh (MT1, CC1)"
+      },
+      {
+        "ten": "Maxport",
+        "dia_diem": "Thái Bình",
+        "nam": "2025",
+        "robot": "MT1 — đang trang bị đồng bộ"
+      },
+      {
+        "ten": "May 10",
+        "dia_diem": "Thanh Hoá",
+        "nam": "2025",
+        "robot": "4 robot MT1 + robot vận chuyển"
+      },
+      {
+        "ten": "YoungOne",
+        "dia_diem": "Nam Định",
+        "nam": "2025",
+        "robot": "Robot vệ sinh"
+      },
+      {
+        "ten": "May Tam Quan",
+        "dia_diem": "Bình Định",
+        "nam": "",
+        "robot": "3 robot MT1"
+      },
+      {
+        "ten": "May Tex-Giang",
+        "dia_diem": "",
+        "nam": "",
+        "robot": "3 robot MT1"
+      },
+      {
+        "ten": "May Việt Thành",
+        "dia_diem": "",
+        "nam": "",
+        "robot": "2 robot MT1"
+      },
+      {
+        "ten": "S&D Quảng Bình",
+        "dia_diem": "Quảng Bình",
+        "nam": "",
+        "robot": "MT1 + T300"
+      }
+    ],
+    "so_tong_hop": [
+      {
+        "so": "70+",
+        "y_nghia": "robot vệ sinh công nghiệp đã triển khai trong ngành may (theo trang web)"
+      },
+      {
+        "so": "50",
+        "y_nghia": "robot trong một nhà máy (Tinh Lợi) — quy mô lớn nhất"
+      }
+    ],
+    "loi_khach_hang": [
+      {
+        "nguoi": "Ông Nam Nguyễn — Trưởng phòng Cơ điện YoungOne",
+        "noi_dung": "Robot thay được 2 lao động, hoàn vốn 1,5 năm"
+      },
+      {
+        "nguoi": "Ông Nguyễn Văn Chung — Giám đốc cải tiến sản xuất Maxport",
+        "noi_dung": "Khách hàng Nike, Adidas dành 20 phút ngắm robot, rất thích đầu tư tự động hóa"
+      }
+    ]
+  },
+  "chinh_sach_bao_hanh_hau_mai": {
+    "nguon": "01-source-data/_extracted-text/03-proposals__de-xuat-bellabot-pro-cho-quan-cafe.docx.txt · de-xuat-robot-le-tan-benh-vien.docx.txt · catalog-giai-phap-robot-nha-hang-golden-gate.docx.txt · pricing.json (bao_gia_vhec / nang_luong_viet_lao)",
+    "cam_ket": [
+      "Bảo hành chính hãng PUDU Robotics 12 tháng toàn bộ máy (phần cứng: cơ cấu di chuyển, động cơ, khung máy)",
+      "Cập nhật phần mềm & firmware chính hãng miễn phí",
+      "Linh kiện thay thế chính hãng có sẵn tại kho Roboworld Hà Nội",
+      "Bảo hành mở rộng năm thứ 2 theo gói dịch vụ (báo giá riêng)",
+      "Khảo sát thực tế miễn phí · lập bản đồ · demo tại chỗ · đào tạo vận hành trực tiếp",
+      "Hỗ trợ kỹ thuật từ xa 24/7 qua hotline, Zalo, email — trên 90% sự cố xử lý từ xa qua IoT của PUDU"
+    ],
+    "dieu_kien": [
+      "Dùng đúng môi trường: trong nhà, nền phẳng cứng, 10–40°C, độ ẩm 30–80%",
+      "Không bảo hành hư hỏng do va đập mạnh, rơi vỡ, tự ý tháo lắp, sửa ngoài trung tâm Roboworld",
+      "Không áp dụng cho hao mòn tự nhiên (bánh xe, chổi, vỏ nhựa ngoài)",
+      "Đăng ký bảo hành trong 15 ngày sau bàn giao"
+    ]
+  },
+  "nhan_su_nganh_fnb_2025": {
+    "nguon": "Khảo sát Việc Làm Tốt (thuộc Chợ Tốt), dẫn theo Báo Người Lao Động 08/11/2025 — 'Ngành F&B khát nhân sự: Tuyển không kịp, giữ không nổi' (nld.com.vn, chuyển hướng sang tuoitre.vn/nld/...). Đây cũng là nguồn gốc các con số 88% / 21,8% / 66% mà trang roboworld.com.vn/giai-phap/nha-hang đang dùng.",
+    "ghi_chu": "Bổ sung 07/09/2026 khi dựng landing sự kiện Tuần lễ Công nghiệp Công nghệ VN 2026. Bài báo là nguồn thứ cấp; chưa có bản gốc báo cáo Việc Làm Tốt.",
+    "so_lieu": [
+      {
+        "so": "88%",
+        "y_nghia": "doanh nghiệp F&B thiếu nhân sự nghiêm trọng"
+      },
+      {
+        "so": "21,8%",
+        "y_nghia": "doanh nghiệp F&B thiếu hơn 50% số nhân sự cần"
+      },
+      {
+        "so": "66,4%",
+        "y_nghia": "nhân viên F&B rời việc trong vòng 1 năm"
+      },
+      {
+        "so": "~25%",
+        "y_nghia": "nghỉ ngay trong 3 tháng đầu"
+      },
+      {
+        "so": "30,6%",
+        "y_nghia": "nhu cầu tuyển dụng F&B tăng trong 9 tháng đầu 2025, đứng thứ 2 thị trường lao động"
+      },
+      {
+        "so": "~80%",
+        "y_nghia": "nhân viên F&B thu nhập dưới 10 triệu/tháng"
+      },
+      {
+        "so": "65%",
+        "y_nghia": "người đã rời ngành F&B không muốn quay lại"
+      }
+    ]
+  },
+  "thi_truong_fnb_2024_ipos": {
+    "nguon": "Báo cáo ngành F&B 2024 — iPOS.vn (ipos.vn/en/bao-cao-nganh-fnb-2024), đọc 07/09/2026",
+    "so_lieu": [
+      {
+        "so": "323.010",
+        "y_nghia": "cửa hàng F&B tại Việt Nam năm 2024, tăng 1,8% so với 2023"
+      },
+      {
+        "so": "688,8 nghìn tỷ đồng",
+        "y_nghia": "doanh thu ngành F&B Việt Nam 2024, tăng 16,6% so với 2023"
+      }
+    ]
+  },
+  "case_banh_trang_phu_cuong": {
+    "nguon": "roboworld.com.vn/giai-phap/nha-hang (trang giải pháp nhà hàng của Roboworld, dẫn lại bài dự án trên roboworld.com.vn), đọc 07/09/2026",
+    "ghi_chu": "Số liệu của MỘT cơ sở (Thiên Sơn Plaza, Hà Nội). Trang web ghi rõ 'kết quả thay đổi tuỳ quy mô'. Chưa đối chiếu với biên bản triển khai gốc.",
+    "so_lieu": [
+      {
+        "so": "4",
+        "y_nghia": "robot BellaBot Pro vào ca liên tục 11 ngày"
+      },
+      {
+        "so": "2.795",
+        "y_nghia": "lượt phục vụ trong 11 ngày"
+      },
+      {
+        "so": "112 km",
+        "y_nghia": "quãng đường robot di chuyển"
+      },
+      {
+        "so": "11 → 7",
+        "y_nghia": "số nhân viên phục vụ giảm 4 người"
+      },
+      {
+        "so": "~40 triệu/tháng",
+        "y_nghia": "tiết kiệm chi phí nhân sự, tương đương ~400 triệu/năm"
+      },
+      {
+        "so": "67%",
+        "y_nghia": "khách hài lòng (theo trang web)"
+      }
+    ]
+  },
+  "golden_gate_150_robot_web": {
+    "nguon": "roboworld.com.vn/du-an và /giai-phap/nha-hang, đọc 07/09/2026",
+    "ghi_chu": "Trang web ghi 'hơn 150 robot BellaBot tại Manwah, Kichi-Kichi, GoGi House, iSushi trên cả 3 miền' — song song với '200+ nhà hàng' trong báo giá 07/2026 (mục quy_mo_trien_khai). Hai số đếm hai thứ khác nhau (robot ↔ nhà hàng); dùng được cả hai nhưng ghi đúng đơn vị.",
+    "so": "150+",
+    "y_nghia": "robot BellaBot đã bàn giao cho Golden Gate"
+  },
+  "thi_truong_robot_dich_vu_the_gioi_ifr_2025": {
+    "nguon": "IFR — World Robotics 2025, chương Service Robots (số liệu năm 2024). Thông cáo: ifr.org/news/service-robots-see-global-growth-boom/ · Executive Summary: ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Service_Robots.pdf. Đọc 08/09/2026.",
+    "ghi_chu": "Bổ sung 08/09/2026 khi dựng bộ slide seminar. Đây là nguồn ngành uy tín nhất cho robot dịch vụ. LƯU Ý: nhóm hospitality (robot đón tiếp, hướng dẫn, phục vụ) GIẢM 11% toàn cầu — đừng viết là đang bùng nổ. Bùng nổ là ở vận chuyển, vệ sinh và y tế. ⚠ 08/09/2026: anh Truong yeu cau doi muc tang cua nhom hospitality thanh +5% tren slide seminar; da tach khoi phan dan nguon IFR va ghi la uoc tinh Roboworld. Ban ghi trong file nay GIU NGUYEN so that cua IFR (−11%).",
+    "so_lieu": [
+      {
+        "so": "~200.000",
+        "y_nghia": "robot dịch vụ chuyên nghiệp bán ra toàn cầu năm 2024",
+        "thay_doi": "+9%"
+      },
+      {
+        "so": "102.900",
+        "y_nghia": "nhóm vận chuyển & logistics — nhóm lớn nhất",
+        "thay_doi": "+14%"
+      },
+      {
+        "so": "42.000+",
+        "y_nghia": "nhóm hospitality: robot đón tiếp, hướng dẫn, thông tin công cộng, telepresence, phục vụ đồ ăn — nhóm lớn thứ hai",
+        "thay_doi": "−11%",
+        "canh_bao_khi_dung": "Bao cao IFR ghi GIAM 11%. Tren bo slide seminar (cloudflare/seminar-robot-dich-vu) con so nay duoc thay bang +5% theo chi dao anh Truong 08/09/2026, va da GO TEN IFR khoi the do (ghi 'uoc tinh Roboworld'). +5% CHUA CO NGUON — dung dan IFR cho con so do o bat ky tai lieu nao khac."
+      },
+      {
+        "so": "25.000+",
+        "y_nghia": "robot vệ sinh chuyên nghiệp — nhóm thứ ba",
+        "thay_doi": "+34%"
+      },
+      {
+        "so": "19.500",
+        "y_nghia": "robot nông nghiệp — nhóm thứ tư",
+        "thay_doi": "−6%"
+      },
+      {
+        "so": "16.700",
+        "y_nghia": "robot y tế",
+        "thay_doi": "+91%"
+      },
+      {
+        "so": "3.100",
+        "y_nghia": "robot an ninh, tìm kiếm cứu hộ",
+        "thay_doi": "+19%"
+      },
+      {
+        "so": "+31%",
+        "y_nghia": "mức tăng của đội robot cho thuê theo mô hình RaaS (robot-as-a-service)"
+      }
+    ],
+    "cau_dan_cua_ifr": "IFR nêu thiếu hụt nhân sự (staff shortages) là động lực chính khiến doanh nghiệp đưa robot dịch vụ vào vận hành."
+  },
+  "thi_truong_dich_vu_viet_nam_2025": {
+    "nguon": "Tổng hợp 08/09/2026 cho slide seminar. Từng dòng ghi nguồn riêng.",
+    "so_lieu": [
+      {
+        "so": "21,2 triệu",
+        "y_nghia": "lượt khách quốc tế đến Việt Nam năm 2025, mức cao nhất từ trước tới nay",
+        "thay_doi": "+20,4%",
+        "nguon": "Cục Du lịch Quốc gia / VnEconomy, Bộ VHTTDL 01/2026"
+      },
+      {
+        "so": ">1 triệu tỷ đồng",
+        "y_nghia": "tổng thu từ khách du lịch năm 2025 — lần đầu vượt mốc này",
+        "nguon": "Bộ VHTTDL 08/01/2026"
+      },
+      {
+        "so": ">800.000",
+        "y_nghia": "lao động mà cơ sở lưu trú du lịch cần năm 2025; hiện lực lượng trực tiếp chưa tới 400.000 người, cần bổ sung trung bình hơn 60.000 lao động mỗi năm giai đoạn 2022–2030",
+        "nguon": "Vụ Khách sạn — Tổng cục Du lịch, dẫn theo Báo Lao động Thủ đô 20/09/2022. ⚠ Dự báo từ 2022, chưa có bản cập nhật mới hơn"
+      },
+      {
+        "so": "3.139",
+        "y_nghia": "Trung tâm Phục vụ Hành chính công cấp xã trên cả nước sau khi vận hành chính quyền địa phương 2 cấp — quy mô thị trường robot lễ tân khối công",
+        "nguon": "Bộ Nội vụ, dẫn theo báo chí 12/2025 – 2026"
+      },
+      {
+        "so": "50–80",
+        "y_nghia": "số bệnh nhân một bác sĩ Việt Nam khám mỗi ngày; tuyến tỉnh và trung ương lên tới 100–120 lượt",
+        "nguon": "Báo Nhân Dân / Dân trí 2025"
+      },
+      {
+        "so": "11,4",
+        "y_nghia": "điều dưỡng trên 10.000 dân (mục tiêu quy hoạch 2025 là 25); cả nước cần bổ sung khoảng 313.900 điều dưỡng giai đoạn 2021–2030",
+        "nguon": "Bộ Y tế, dẫn theo Dân trí 19/03/2025"
+      }
+    ]
+  }
+}

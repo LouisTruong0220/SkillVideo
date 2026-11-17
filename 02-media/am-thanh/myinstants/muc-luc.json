@@ -1,0 +1,419 @@
+{
+  "nguon": "https://www.myinstants.com",
+  "am_thanh": [
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/bubble-pop.mp3",
+      "ten": "bubble poping",
+      "tu_khoa": "bubble pop",
+      "giay": 0.26,
+      "url": "https://www.myinstants.com/media/sounds/bubble-pop.mp3",
+      "trang": "https://www.myinstants.com/en/instant/bubble-poping-94847/"
+    },
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/comedy_pop_finger_in_mouth_001.mp3",
+      "ten": "pop",
+      "tu_khoa": "pop",
+      "giay": 0.4,
+      "url": "https://www.myinstants.com/media/sounds/comedy_pop_finger_in_mouth_001.mp3",
+      "trang": "https://www.myinstants.com/en/instant/pop/"
+    },
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/confetti-pop-sound.mp3",
+      "ten": "confetti pop sound",
+      "tu_khoa": "pop",
+      "giay": 1.78,
+      "url": "https://www.myinstants.com/media/sounds/confetti-pop-sound.mp3",
+      "trang": "https://www.myinstants.com/en/instant/confetti-pop-sound-57103/"
+    },
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/mocor-os-keypad-sound.mp3",
+      "ten": "Mocor OS keypad sound",
+      "tu_khoa": "bubble pop",
+      "giay": 0.08,
+      "url": "https://www.myinstants.com/media/sounds/mocor-os-keypad-sound.mp3",
+      "trang": "https://www.myinstants.com/en/instant/mocor-os-keypad-sound-6295/"
+    },
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/pop-sound-effect_AsEdnw2.mp3",
+      "ten": "Pop Sound Effect",
+      "tu_khoa": "pop",
+      "giay": 0.7,
+      "url": "https://www.myinstants.com/media/sounds/pop-sound-effect_AsEdnw2.mp3",
+      "trang": "https://www.myinstants.com/en/instant/pop-sound-effect-51934/"
+    },
+    {
+      "nhom": "bat-chu",
+      "file": "bat-chu/pop_7e9Is8L.mp3",
+      "ten": "Pop SFX",
+      "tu_khoa": "pop",
+      "giay": 0.29,
+      "url": "https://www.myinstants.com/media/sounds/pop_7e9Is8L.mp3",
+      "trang": "https://www.myinstants.com/en/instant/pop-sfx-75405/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/anime-wow-sound-effect-mp3cut.mp3",
+      "ten": "Wow Anime meme",
+      "tu_khoa": "wow",
+      "giay": 4.2,
+      "url": "https://www.myinstants.com/media/sounds/anime-wow-sound-effect-mp3cut.mp3",
+      "trang": "https://www.myinstants.com/en/instant/wow-anime-meme-55752/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/anime-wow-sound-effect.mp3",
+      "ten": "Anime Wow",
+      "tu_khoa": "wow",
+      "giay": 4.18,
+      "url": "https://www.myinstants.com/media/sounds/anime-wow-sound-effect.mp3",
+      "trang": "https://www.myinstants.com/en/instant/anime-wow/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/children-yaysound-effect.mp3",
+      "ten": "YAAAYY CHILDREN!!!!",
+      "tu_khoa": "applause",
+      "giay": 7.08,
+      "url": "https://www.myinstants.com/media/sounds/children-yaysound-effect.mp3",
+      "trang": "https://www.myinstants.com/en/instant/yaaayy-children-34718/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/correct-answer-buzzer-right.mp3",
+      "ten": "Correct answer buzzer right",
+      "tu_khoa": "correct answer",
+      "giay": 4.6,
+      "url": "https://www.myinstants.com/media/sounds/correct-answer-buzzer-right.mp3",
+      "trang": "https://www.myinstants.com/en/instant/correct-answer-buzzer-right-89847/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/correct.mp3",
+      "ten": "Correct Answer GameShow",
+      "tu_khoa": "correct answer",
+      "giay": 1.27,
+      "url": "https://www.myinstants.com/media/sounds/correct.mp3",
+      "trang": "https://www.myinstants.com/en/instant/correct-answer-gameshow/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/crowd-cheering-applause.mp3",
+      "ten": "Crowd Cheer + Applause",
+      "tu_khoa": "applause",
+      "giay": 6.18,
+      "url": "https://www.myinstants.com/media/sounds/crowd-cheering-applause.mp3",
+      "trang": "https://www.myinstants.com/en/instant/crowd-cheer-applause-73083/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/wrong-answer-buzzer.mp3",
+      "ten": "Wrong Answer Buzzer",
+      "tu_khoa": "wrong answer",
+      "giay": 1.06,
+      "url": "https://www.myinstants.com/media/sounds/wrong-answer-buzzer.mp3",
+      "trang": "https://www.myinstants.com/en/instant/wrong-answer-buzzer-6983/"
+    },
+    {
+      "nhom": "cam-xuc",
+      "file": "cam-xuc/wrong_5.mp3",
+      "ten": "Wrong Answer GameShow",
+      "tu_khoa": "wrong answer",
+      "giay": 1.78,
+      "url": "https://www.myinstants.com/media/sounds/wrong_5.mp3",
+      "trang": "https://www.myinstants.com/en/instant/wrong-answer-gameshow/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/fast-whoosh.mp3",
+      "ten": "Fast whoosh",
+      "tu_khoa": "whoosh",
+      "giay": 1.2,
+      "url": "https://www.myinstants.com/media/sounds/fast-whoosh.mp3",
+      "trang": "https://www.myinstants.com/en/instant/fast-whoosh-8374/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/iphone-message-swoosh.mp3",
+      "ten": "Iphone message swoosh",
+      "tu_khoa": "swoosh",
+      "giay": 2.3,
+      "url": "https://www.myinstants.com/media/sounds/iphone-message-swoosh.mp3",
+      "trang": "https://www.myinstants.com/en/instant/iphone-message-swoosh-72971/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/swoosh-sound-effects.mp3",
+      "ten": "Swoosh Sound Effects",
+      "tu_khoa": "swoosh",
+      "giay": 0.36,
+      "url": "https://www.myinstants.com/media/sounds/swoosh-sound-effects.mp3",
+      "trang": "https://www.myinstants.com/en/instant/swoosh-sound-effects-85235/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/transition-sound-effects-presented-by-mrsnooze-unknown-album-00-005-simple-swoosh.mp3",
+      "ten": "Swoosh simple",
+      "tu_khoa": "swoosh",
+      "giay": 4.0,
+      "url": "https://www.myinstants.com/media/sounds/transition-sound-effects-presented-by-mrsnooze-unknown-album-00-005-simple-swoosh.mp3",
+      "trang": "https://www.myinstants.com/en/instant/swoosh-simple-66449/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/transition-whoosh.mp3",
+      "ten": "Transition (whoosh)",
+      "tu_khoa": "whoosh",
+      "giay": 2.16,
+      "url": "https://www.myinstants.com/media/sounds/transition-whoosh.mp3",
+      "trang": "https://www.myinstants.com/en/instant/transition-whoosh-87155/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/whoosh-sfx.mp3",
+      "ten": "whoosh sfx",
+      "tu_khoa": "whoosh",
+      "giay": 0.98,
+      "url": "https://www.myinstants.com/media/sounds/whoosh-sfx.mp3",
+      "trang": "https://www.myinstants.com/en/instant/whoosh-sfx-32736/"
+    },
+    {
+      "nhom": "chuyen-canh",
+      "file": "chuyen-canh/whoosh-wind.mp3",
+      "ten": "Whoosh Wind",
+      "tu_khoa": "whoosh",
+      "giay": 0.65,
+      "url": "https://www.myinstants.com/media/sounds/whoosh-wind.mp3",
+      "trang": "https://www.myinstants.com/en/instant/whoosh-wind-64105/"
+    },
+    {
+      "nhom": "cong-nghe",
+      "file": "cong-nghe/message-received_kJCKziQ.mp3",
+      "ten": "Message Received",
+      "tu_khoa": "robot beep",
+      "giay": 2.62,
+      "url": "https://www.myinstants.com/media/sounds/message-received_kJCKziQ.mp3",
+      "trang": "https://www.myinstants.com/en/instant/message-received-71965/"
+    },
+    {
+      "nhom": "cong-nghe",
+      "file": "cong-nghe/moby-beep.mp3",
+      "ten": "Moby Beep",
+      "tu_khoa": "robot beep",
+      "giay": 1.02,
+      "url": "https://www.myinstants.com/media/sounds/moby-beep.mp3",
+      "trang": "https://www.myinstants.com/en/instant/moby-beep-83171/"
+    },
+    {
+      "nhom": "cong-nghe",
+      "file": "cong-nghe/police-radio-gta-sa.mp3",
+      "ten": "Police radio GTA SA",
+      "tu_khoa": "scanner",
+      "giay": 4.7,
+      "url": "https://www.myinstants.com/media/sounds/police-radio-gta-sa.mp3",
+      "trang": "https://www.myinstants.com/en/instant/police-radio-gta-sa-30089/"
+    },
+    {
+      "nhom": "cong-nghe",
+      "file": "cong-nghe/robot-beep-boopt.mp3",
+      "ten": "Robot Beep Boop",
+      "tu_khoa": "robot beep",
+      "giay": 3.89,
+      "url": "https://www.myinstants.com/media/sounds/robot-beep-boopt.mp3",
+      "trang": "https://www.myinstants.com/en/instant/robot-beep-boop-9290/"
+    },
+    {
+      "nhom": "cong-nghe",
+      "file": "cong-nghe/store-scanner-beep-sound-effect.mp3",
+      "ten": "scanner",
+      "tu_khoa": "scanner",
+      "giay": 2.09,
+      "url": "https://www.myinstants.com/media/sounds/store-scanner-beep-sound-effect.mp3",
+      "trang": "https://www.myinstants.com/en/instant/scanner-70284/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/discord-notification.mp3",
+      "ten": "Discord Notification",
+      "tu_khoa": "notification",
+      "giay": 0.48,
+      "url": "https://www.myinstants.com/media/sounds/discord-notification.mp3",
+      "trang": "https://www.myinstants.com/en/instant/discord-notification-38119/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/keyboard-typing-noise.mp3",
+      "ten": "keyboard typing noise",
+      "tu_khoa": "keyboard typing",
+      "giay": 6.84,
+      "url": "https://www.myinstants.com/media/sounds/keyboard-typing-noise.mp3",
+      "trang": "https://www.myinstants.com/en/instant/keyboard-typing-noise-81069/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/meme-click.mp3",
+      "ten": "Meme Click",
+      "tu_khoa": "mouse click",
+      "giay": 1.34,
+      "url": "https://www.myinstants.com/media/sounds/meme-click.mp3",
+      "trang": "https://www.myinstants.com/en/instant/meme-click-4213/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/mouse-click-sound.mp3",
+      "ten": "Mouse Click Sound",
+      "tu_khoa": "mouse click",
+      "giay": 3.07,
+      "url": "https://www.myinstants.com/media/sounds/mouse-click-sound.mp3",
+      "trang": "https://www.myinstants.com/en/instant/mouse-click-sound-63406/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/notification_o14egLP.mp3",
+      "ten": "iPhone Notification",
+      "tu_khoa": "notification",
+      "giay": 4.62,
+      "url": "https://www.myinstants.com/media/sounds/notification_o14egLP.mp3",
+      "trang": "https://www.myinstants.com/en/instant/iphone-notification-71441/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/rage2.mp3",
+      "ten": "Keyboard rage",
+      "tu_khoa": "keyboard typing",
+      "giay": 7.72,
+      "url": "https://www.myinstants.com/media/sounds/rage2.mp3",
+      "trang": "https://www.myinstants.com/en/instant/keyboard-rage-73311/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/snapchat-message.mp3",
+      "ten": "Snapchat message",
+      "tu_khoa": "notification",
+      "giay": 3.03,
+      "url": "https://www.myinstants.com/media/sounds/snapchat-message.mp3",
+      "trang": "https://www.myinstants.com/en/instant/snapchat-message-4240/"
+    },
+    {
+      "nhom": "giao-dien",
+      "file": "giao-dien/windows-xp-critical-error-full-version.mp3",
+      "ten": "Windows XP Critical Error (Full Version)",
+      "tu_khoa": "windows error",
+      "giay": 0.9,
+      "url": "https://www.myinstants.com/media/sounds/windows-xp-critical-error-full-version.mp3",
+      "trang": "https://www.myinstants.com/en/instant/windows-xp-critical-error-full-version-77264/"
+    },
+    {
+      "nhom": "may-anh",
+      "file": "may-anh/camera_zLdd1zp.mp3",
+      "ten": "Camera shutter",
+      "tu_khoa": "camera shutter",
+      "giay": 0.88,
+      "url": "https://www.myinstants.com/media/sounds/camera_zLdd1zp.mp3",
+      "trang": "https://www.myinstants.com/en/instant/camera-shutter-181/"
+    },
+    {
+      "nhom": "may-anh",
+      "file": "may-anh/iphone-camerascreenshot-shutter-shot-apple-sound-sound-effect-for-editing.mp3",
+      "ten": "iphone camera shutter",
+      "tu_khoa": "camera shutter",
+      "giay": 3.74,
+      "url": "https://www.myinstants.com/media/sounds/iphone-camerascreenshot-shutter-shot-apple-sound-sound-effect-for-editing.mp3",
+      "trang": "https://www.myinstants.com/en/instant/iphone-camera-shutter-95532/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/bat_hit.mp3",
+      "ten": "TF2 Scout Metal Bat",
+      "tu_khoa": "impact",
+      "giay": 0.45,
+      "url": "https://www.myinstants.com/media/sounds/bat_hit.mp3",
+      "trang": "https://www.myinstants.com/en/instant/tf2-scout-metal-bat-96878/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/ding-sound-effect_1.mp3",
+      "ten": "correct (ding)",
+      "tu_khoa": "ding",
+      "giay": 2.95,
+      "url": "https://www.myinstants.com/media/sounds/ding-sound-effect_1.mp3",
+      "trang": "https://www.myinstants.com/en/instant/correct-ding/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/ding-sound-effect_2.mp3",
+      "ten": "ding sound effect",
+      "tu_khoa": "ding",
+      "giay": 2.95,
+      "url": "https://www.myinstants.com/media/sounds/ding-sound-effect_2.mp3",
+      "trang": "https://www.myinstants.com/en/instant/ding-sound-effect/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/dramatic-boomer.mp3",
+      "ten": "Dramatic Boomer",
+      "tu_khoa": "impact",
+      "giay": 1.34,
+      "url": "https://www.myinstants.com/media/sounds/dramatic-boomer.mp3",
+      "trang": "https://www.myinstants.com/en/instant/dramatic-boomer-29428/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/proper-ding_IbfMQYw.mp3",
+      "ten": "Proper Ding",
+      "tu_khoa": "ding",
+      "giay": 1.35,
+      "url": "https://www.myinstants.com/media/sounds/proper-ding_IbfMQYw.mp3",
+      "trang": "https://www.myinstants.com/en/instant/proper-ding-29074/"
+    },
+    {
+      "nhom": "nhan-manh",
+      "file": "nhan-manh/vine-boom.mp3",
+      "ten": "VINE BOOM SOUND",
+      "tu_khoa": "vine boom",
+      "giay": 1.25,
+      "url": "https://www.myinstants.com/media/sounds/vine-boom.mp3",
+      "trang": "https://www.myinstants.com/en/instant/vine-boom-sound-70972/"
+    },
+    {
+      "nhom": "tien-so",
+      "file": "tien-so/audiojoiner120623175716.mp3",
+      "ten": "Cash Register",
+      "tu_khoa": "cash register",
+      "giay": 2.43,
+      "url": "https://www.myinstants.com/media/sounds/audiojoiner120623175716.mp3",
+      "trang": "https://www.myinstants.com/en/instant/cash-register/"
+    },
+    {
+      "nhom": "tien-so",
+      "file": "tien-so/cash-register-sound-effect-meme-mp3.mp3",
+      "ten": "Cash register sound effect meme MP3",
+      "tu_khoa": "cash register",
+      "giay": 1.3,
+      "url": "https://www.myinstants.com/media/sounds/cash-register-sound-effect-meme-mp3.mp3",
+      "trang": "https://www.myinstants.com/en/instant/cash-register-sound-effect-meme-mp3-69881/"
+    },
+    {
+      "nhom": "tien-so",
+      "file": "tien-so/mario_coin_sound.mp3",
+      "ten": "Mario coin sound",
+      "tu_khoa": "coin",
+      "giay": 2.01,
+      "url": "https://www.myinstants.com/media/sounds/mario_coin_sound.mp3",
+      "trang": "https://www.myinstants.com/en/instant/mario-coin-sound/"
+    },
+    {
+      "nhom": "tien-so",
+      "file": "tien-so/money-soundfx.mp3",
+      "ten": "Money SoundFX",
+      "tu_khoa": "coin",
+      "giay": 3.06,
+      "url": "https://www.myinstants.com/media/sounds/money-soundfx.mp3",
+      "trang": "https://www.myinstants.com/en/instant/money-soundfx-72186/"
+    }
+  ]
+}

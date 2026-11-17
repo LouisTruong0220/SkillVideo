@@ -1,0 +1,81 @@
+{
+  "nhac": [
+    {
+      "file": "01-bellabot-nha-hang-starbucks-63s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\01-bellabot-nha-hang-starbucks-63s.mp4",
+      "giay": 62.7,
+      "nhac_so_voi_giong_db": -10.3,
+      "doan_sach": [
+        0.3,
+        59.2
+      ],
+      "ghi_chu": "nhịp đều, sạch nhất. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "02-bellabot-gioi-thieu-kha-nang-51s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\02-bellabot-gioi-thieu-kha-nang-51s.mp4",
+      "giay": 51.2,
+      "nhac_so_voi_giong_db": -12.4,
+      "doan_sach": [
+        0.3,
+        47.7
+      ],
+      "ghi_chu": "đổi đoạn ở ~43s. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "03-bellabot-quan-thit-nuong-han-quoc-58s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\03-bellabot-quan-thit-nuong-han-quoc-58s.mp4",
+      "giay": 58.5,
+      "nhac_so_voi_giong_db": -9.2,
+      "doan_sach": [
+        0.3,
+        55.0
+      ],
+      "ghi_chu": "nhịp đều, sạch. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "04-bellabot-nha-hang-khong-gian-rong-71s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\04-bellabot-nha-hang-khong-gian-rong-71s.mp4",
+      "giay": 71.2,
+      "nhac_so_voi_giong_db": 3.5,
+      "doan_sach": [
+        0.3,
+        67.7
+      ],
+      "ghi_chu": "có đoạn chói (hiệu ứng cũ) ~15s và ~32s — tránh. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "05-robot-le-tan-hanh-chinh-cong-79s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\05-robot-le-tan-hanh-chinh-cong-79s.mp4",
+      "giay": 78.8,
+      "nhac_so_voi_giong_db": -18.0,
+      "doan_sach": [
+        0.3,
+        75.3
+      ],
+      "ghi_chu": "nhạc rất nhỏ trong video gốc, nhiều tiếng ồn phòng. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "06-robot-van-phong-phong-van-99s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\06-robot-van-phong-phong-van-99s.mp4",
+      "giay": 98.9,
+      "nhac_so_voi_giong_db": -7.4,
+      "doan_sach": [
+        0.3,
+        95.4
+      ],
+      "ghi_chu": "dài nhất (99s) — dùng khi video > 60s. 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    },
+    {
+      "file": "07-duy-truong-nha-hang-lau-31s.mp3",
+      "tu_video": "01-source-data\\_ban-goc-anh-Truong\\video\\video-mau-social\\07-duy-truong-nha-hang-lau-31s.mp4",
+      "giay": 30.9,
+      "nhac_so_voi_giong_db": -1.5,
+      "doan_sach": [
+        0.3,
+        27.4
+      ],
+      "ghi_chu": "ngắn (31s). 3,5s cuối là tiếng vút của đoạn logo kết — đã loại khỏi doan_sach."
+    }
+  ]
+}

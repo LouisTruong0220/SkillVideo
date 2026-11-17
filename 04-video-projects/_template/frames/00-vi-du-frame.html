@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Frame mẫu · Roboworld</title>
+<style>
+/* Nhúng font thương hiệu: thay bằng nội dung 00-brand/brand-fonts-embedded.css
+   khi render thật (headless Chromium không đọc được đường dẫn tương đối ra ngoài).
+   Xem hướng dẫn ở cuối file. */
+@import url('../../../00-brand/brand-tokens.css');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 1920px; height: 1080px;   /* đổi thành 1080x1920 cho khổ dọc */
+  overflow: hidden;
+}
+
+body {
+  background-color: #110909;
+  background-image: radial-gradient(ellipse 70% 45% at 50% 72%,
+      rgba(232,58,52,.55) 0%, rgba(232,58,52,.18) 42%, rgba(17,9,9,0) 72%);
+  color: #fff;
+  font-family: 'Britti Sans', system-ui, sans-serif;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 96px;
+}
+
+.kicker {
+  font-weight: 700; text-transform: uppercase;
+  letter-spacing: .18em; font-size: 24px; color: #E83636;
+  margin-bottom: 24px;
+  opacity: 0; animation: rise .7s .1s ease-out forwards;
+}
+.title {
+  font-family: 'Neusharp', 'Arial Black', sans-serif;
+  text-transform: uppercase; letter-spacing: .02em;
+  font-size: 128px; line-height: 1.05;
+  opacity: 0; animation: rise .8s .3s ease-out forwards;
+}
+.title em { font-style: normal; color: #E83636; }
+.tagline {
+  font-weight: 700; font-style: italic; color: #E83636;
+  font-size: 36px; margin-top: 20px;
+  opacity: 0; animation: rise .8s .6s ease-out forwards;
+}
+.meta {
+  font-weight: 300; font-size: 22px; color: #bbb; margin-top: 48px;
+  opacity: 0; animation: rise .8s .9s ease-out forwards;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(36px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* fade out cuối frame để ghép cảnh mượt */
+body::after {
+  content: ''; position: fixed; inset: 0; background: #000;
+  opacity: 0; pointer-events: none;
+  animation: fadeout .5s 4.5s ease-in forwards;
+}
+@keyframes fadeout { to { opacity: 1; } }
+</style>
+</head>
+<body>
+  <div class="kicker">Đã chạy thật ở 200+ nhà hàng</div>
+  <h1 class="title">Robot phục vụ<br><em>BellaBot Pro</em></h1>
+  <div class="tagline">Màn 18.5" · Lối đi 65 cm · Tải 40 kg</div>
+  <div class="meta">Nhắn tôi nếu muốn xem nó chạy tại nhà hàng của bạn</div>
+</body>
+</html>
+
+<!--
+  ⛔ HAI ĐIỀU CẤM: không đặt logo, không hiện số điện thoại lên frame.
+     Liên hệ để ở caption/bio, không lên hình — tránh bị nền tảng bóp tương tác.
+
+  CÁCH DÙNG
+  1. Xem thử: mở file này bằng trình duyệt.
+  2. Render thật: thay dòng @import bằng TOÀN BỘ nội dung
+     00-brand/brand-fonts-embedded.css (font base64) để frame tự đứng một mình.
+     Sinh file đó bằng: python tools/make-brand-fonts.py
+  3. Ảnh/video trong frame: nhúng base64 hoặc đặt cùng thư mục frames/
+     — Chromium chặn fetch qua file:// nên đường dẫn ra ngoài sẽ hỏng.
+  4. Kích thước body phải khớp đúng độ phân giải render (1920×1080 hoặc 1080×1920).
+-->

@@ -1,0 +1,20 @@
+# Bí mật
+.env
+**/ElevenlabAPI.txt
+*.key
+
+# Cài lại được
+**/.venv/
+**/node_modules/
+**/__pycache__/
+tools/video-tho/models/models--*/
+tools/video-tho/models/CACHEDIR.TAG
+tools/video-tho/tham-khao/
+tools/video-tho/_thu/
+
+# Đầu ra
+05-output/
+04-video-projects/*/build/
+
+# Hiệu ứng myinstants: tải lại bằng  python tools/video-tho/am-thanh.py tai-lai
+02-media/am-thanh/myinstants/**/*.mp3

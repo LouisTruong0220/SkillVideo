@@ -1,0 +1,152 @@
+/* ============================================================
+   ROBOWORLD · Brand tokens cho video HTML
+   Nguồn quy chuẩn: 00-brand/design-kit/design-rbw.md
+   Dùng: copy khối này vào <style> của mỗi frame HTML,
+         hoặc sinh bản nhúng font base64 bằng
+         `python tools/make-brand-fonts.py`
+   ============================================================ */
+
+/* ---------- Font (đường dẫn tương đối tới file CSS này) ---------- */
+@font-face {
+  font-family: 'Neusharp';
+  src: url('design-kit/assets/fonts/1FTV-VIP-NEUSHARP-BOLD.TTF') format('truetype');
+  font-weight: 700; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-Light.ttf') format('truetype');
+  font-weight: 300; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-Regular.ttf') format('truetype');
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-RegularItalic.ttf') format('truetype');
+  font-weight: 400; font-style: italic; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-SemiBold.ttf') format('truetype');
+  font-weight: 600; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-Bold.ttf') format('truetype');
+  font-weight: 700; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: 'Britti Sans';
+  src: url('design-kit/assets/fonts/DFVN-BrittiSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700; font-style: italic; font-display: block;
+}
+
+:root {
+  /* ---------- Màu thương hiệu chính thức ---------- */
+  --rbw-core-red:      #C13F28;  /* đỏ chủ đạo: heading, nhấn */
+  --rbw-signal-red:    #E83636;  /* đỏ tươi: vệt sáng, tagline */
+  --rbw-deep-maroon:   #5E0F18;  /* đỏ đậm: heading phụ, callout nặng */
+  --rbw-tech-peach:    #FAB29A;  /* cam đào: nền callout mềm */
+  --rbw-peach-soft:    #FDE9E1;  /* cam đào pha loãng: nền callout */
+  --rbw-black:         #000000;  /* chữ body, nền tối */
+  --rbw-white:         #FFFFFF;
+  --rbw-grey:          #666666;  /* caption */
+
+  /* nền tối "spotlight" — dựng lại bằng CSS thay cho cover_bg.png */
+  --rbw-dark-base:     #110909;
+  --rbw-spotlight: radial-gradient(ellipse 70% 45% at 50% 72%,
+                     rgba(232,58,52,.55) 0%,
+                     rgba(232,58,52,.18) 42%,
+                     rgba(17,9,9,0) 72%);
+
+  /* ---------- Font stack ---------- */
+  --rbw-font-title: 'Neusharp', 'Arial Black', sans-serif;
+  --rbw-font-body:  'Britti Sans', 'Segoe UI', system-ui, sans-serif;
+
+  /* ---------- Thang chữ cho video 1080p ---------- */
+  /* Video khác tài liệu in: chữ phải to hơn nhiều để đọc được trên điện thoại */
+  --rbw-fs-hero:    128px;  /* tên sản phẩm, con số lớn */
+  --rbw-fs-h1:       72px;
+  --rbw-fs-h2:       48px;
+  --rbw-fs-h3:       36px;
+  --rbw-fs-body:     30px;
+  --rbw-fs-caption:  22px;
+  --rbw-fs-kicker:   24px;  /* dòng nhãn nhỏ IN HOA phía trên tiêu đề */
+
+  --rbw-track-title: .02em;  /* giãn ký tự tiêu đề Neusharp */
+  --rbw-lh-tight: 1.05;
+  --rbw-lh-body:  1.5;
+
+  /* ---------- Nhịp & bo góc ---------- */
+  --rbw-gap-xs: 8px; --rbw-gap-sm: 16px; --rbw-gap-md: 32px;
+  --rbw-gap-lg: 64px; --rbw-gap-xl: 96px;
+  --rbw-safe: 96px;        /* lề an toàn cho khung 1920×1080 */
+  --rbw-safe-vertical: 72px;/* lề an toàn cho khung dọc 1080×1920 */
+  --rbw-radius: 12px;
+}
+
+/* ---------- Lớp tiện ích ---------- */
+.rbw-stage {                       /* nền tối spotlight chuẩn bìa Roboworld */
+  background-color: var(--rbw-dark-base);
+  background-image: var(--rbw-spotlight);
+  color: var(--rbw-white);
+  font-family: var(--rbw-font-body);
+}
+.rbw-stage-light {
+  background: var(--rbw-white);
+  color: var(--rbw-black);
+  font-family: var(--rbw-font-body);
+}
+.rbw-title {                       /* tiêu đề LUÔN IN HOA theo quy chuẩn */
+  font-family: var(--rbw-font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--rbw-track-title);
+  line-height: var(--rbw-lh-tight);
+}
+.rbw-kicker {                      /* nhãn nhỏ phía trên tiêu đề */
+  font-family: var(--rbw-font-body);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-size: var(--rbw-fs-kicker);
+  color: var(--rbw-signal-red);
+}
+.rbw-tagline {                     /* tagline đỏ nghiêng dưới tiêu đề */
+  font-family: var(--rbw-font-body);
+  font-weight: 700; font-style: italic;
+  color: var(--rbw-signal-red);
+}
+.rbw-accent { color: var(--rbw-signal-red); }
+.rbw-callout {
+  background: var(--rbw-peach-soft);
+  border-left: 6px solid var(--rbw-core-red);
+  color: var(--rbw-deep-maroon);
+  padding: var(--rbw-gap-sm) var(--rbw-gap-md);
+  border-radius: var(--rbw-radius);
+}
+.rbw-stat-num {                    /* con số lớn kiểu "200+" */
+  font-family: var(--rbw-font-title);
+  font-size: var(--rbw-fs-hero);
+  color: var(--rbw-signal-red);
+  line-height: 1;
+}
+.rbw-caption { font-size: var(--rbw-fs-caption); color: var(--rbw-grey); }
+
+/* ---------- Khung an toàn ---------- */
+.rbw-safe-area   { padding: var(--rbw-safe); }
+.rbw-safe-area-9x16 { padding: var(--rbw-safe-vertical); }
+
+/* ============================================================
+   GHI CHÚ QUAN TRỌNG KHI RENDER
+   - html-video render qua headless Chromium: font phải nạp XONG
+     trước khi ghi hình. Đã đặt font-display:block để tránh FOUT.
+   - Nếu frame HTML nằm ngoài 00-brand/, đường dẫn url() ở trên sẽ
+     sai. Khi đó dùng bản nhúng base64:
+       python tools/make-brand-fonts.py
+     -> sinh 00-brand/brand-fonts-embedded.css (self-contained).
+   - Chromium chặn fetch qua file:// — mọi ảnh/video dùng trong
+     frame nên nhúng base64 hoặc đặt cùng thư mục frame.
+   ============================================================ */

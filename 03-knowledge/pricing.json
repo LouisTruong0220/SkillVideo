@@ -1,0 +1,1264 @@
+{
+  "_meta": {
+    "mo_ta": "Bảng giá mua đứt và cho thuê. Đây là số liệu nhạy cảm — LUÔN kiểm tra hiệu lực trước khi lên hình video.",
+    "cap_nhat": "2026-07-30",
+    "canh_bao": "Báo giá 06/07/2026 (mục mua_dut) ĐÃ HẾT HIỆU LỰC. Dùng mục \"bao_gia_2026_07_30\" — giá anh Trường chốt trực tiếp ngày 30/07/2026, KHÔNG ghi thời hạn."
+  },
+  "mua_dut": {
+    "ngay_bao_gia": "2026-07-06",
+    "hieu_luc_ngay": 15,
+    "nguon": "01-source-data/02-pricing/bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf",
+    "bao_gom": "Robot & bàn giao · bảo hành theo chính sách hãng",
+    "chua_ro": "Chính sách VAT, giao hàng, lắp đặt & đào tạo vận hành — liên hệ để biết chi tiết",
+    "bang_gia": [
+      {
+        "san_pham": "BellaBot Pro",
+        "nhan": "Premium",
+        "gia_vnd": 155000000,
+        "hien_thi": "155.000.000 đ"
+      },
+      {
+        "san_pham": "BellaBot",
+        "nhan": "Phổ biến nhất",
+        "gia_vnd": 140000000,
+        "hien_thi": "140.000.000 đ"
+      },
+      {
+        "san_pham": "PuduBot 2",
+        "nhan": "Đa năng",
+        "gia_vnd": 115000000,
+        "hien_thi": "115.000.000 đ"
+      }
+    ]
+  },
+  "cho_thue": {
+    "nguon": "01-source-data/02-pricing/bao-gia-thue-robot-su-kien.pdf",
+    "pham_vi": "Nội thành Hà Nội và TP. Hồ Chí Minh",
+    "canh_bao_quan_trong": "ĐÃ GIẢI QUYẾT một phần: giá thuê/ngày của BellaBot (4tr), BellaBot Pro (5tr) và GreetingBot Nova (6tr) do anh Trường xác nhận ngày 30/07/2026 — xem mục \"bao_gia_2026_07_30\". Bảng 4 bậc dưới đây vẫn CHƯA rõ ánh xạ giá tuần/tháng ↔ dòng robot.",
+    "bac_gia": [
+      {
+        "bac": 1,
+        "ngay_vnd": 4000000,
+        "tuan_vnd": 14000000,
+        "thang_vnd": 42000000
+      },
+      {
+        "bac": 2,
+        "ngay_vnd": 6000000,
+        "tuan_vnd": 21000000,
+        "thang_vnd": 51000000
+      },
+      {
+        "bac": 3,
+        "ngay_vnd": 8000000,
+        "tuan_vnd": 28000000,
+        "thang_vnd": 57000000
+      },
+      {
+        "bac": 4,
+        "ngay_vnd": 10000000,
+        "tuan_vnd": 35000000,
+        "thang_vnd": 72000000
+      }
+    ],
+    "dich_vu_kem_theo": [
+      "Vận chuyển robot trước sự kiện 01 ngày và setup theo yêu cầu",
+      "Trực đảm bảo robot vận hành ổn định xuyên suốt sự kiện",
+      "Thiết kế áo decal robot + dán 01 áo (phụ thu 500k/áo từ decal thứ 02)",
+      "Robot giới thiệu theo thông tin riêng của doanh nghiệp — nâng cao nhận diện thương hiệu",
+      "Xử lý sự cố online, đảm bảo robot vận hành ổn định xuyên suốt quá trình thuê"
+    ],
+    "phu_thu": [
+      {
+        "muc": "Decal từ áo thứ 02",
+        "phi_vnd": 500000
+      },
+      {
+        "muc": "Khách hàng tự dán sticker/decal (phí bảo dưỡng robot)",
+        "phi_vnd": 500000
+      }
+    ]
+  },
+  "phu_tung_bao_tri": {
+    "nguon": [
+      "01-source-data/02-pricing/bang-gia-phu-kien-thay-the-bellabot.pdf",
+      "01-source-data/02-pricing/bao-gia-phu-tung-bellabot-ant-journey.pdf"
+    ],
+    "ghi_chu": "Có bảng giá phụ kiện thay thế BellaBot và một báo giá phụ tùng mẫu (khách ANT Journey). Chưa chuẩn hóa thành JSON — mở file gốc khi cần."
+  },
+  "bai_toan_roi": {
+    "nguon": "01-source-data/03-proposals/catalog-giai-phap-robot-nha-hang-golden-gate.docx",
+    "chi_phi_nhan_vien_phuc_vu": {
+      "thang_vnd": "8.000.000 – 12.000.000",
+      "nam_vnd": "96.000.000 – 144.000.000",
+      "bao_gom": "lương + ăn ca + BHXH + chi phí tuyển dụng/đào tạo thay thế"
+    },
+    "nang_suat_robot": "Một robot đảm nhận khối lượng vận chuyển của 2–3 nhân viên, hoạt động 12–24h/ngày",
+    "diem_hoa_von": "12 – 18 tháng (theo dữ liệu triển khai thực tế)",
+    "vong_doi": "5 năm"
+  },
+  "bao_gia_2026_07_30": {
+    "ngay_chot": "2026-07-30",
+    "nguon": "Anh Phan Duy Trường chốt trực tiếp trong phiên làm việc 30/07/2026",
+    "vat": "Mọi giá dưới đây CHƯA gồm VAT. Thuế suất áp dụng: 8%.",
+    "thoi_han": "Không ghi thời hạn hiệu lực (theo yêu cầu của anh Trường)",
+    "mua_dut": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 165000000,
+        "vat_8_vnd": 13200000,
+        "tong_da_vat_vnd": 178200000,
+        "bao_gom": "Robot & bàn giao · bảo hành theo chính sách hãng",
+        "het_hieu_luc": "ĐÃ THAY BẰNG 180.000.000 chưa VAT — anh Trường chốt 20/08/2026, xem mục \"bao_gia_2026_08_20\". KHÔNG dùng con số 165 triệu cho báo giá mới."
+      },
+      {
+        "san_pham": "BellaBot",
+        "gia_chua_vat_vnd": 150000000,
+        "vat_8_vnd": 12000000,
+        "tong_da_vat_vnd": 162000000,
+        "bao_gom": "Robot & bàn giao · bảo hành theo chính sách hãng"
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000,
+        "bao_gom": "Robot & bàn giao · bảo hành theo chính sách hãng",
+        "het_hieu_luc": "ĐÃ THAY BẰNG 220.000.000 chưa VAT — anh Trường chốt 10/08/2026, xem mục \"gia_nova_2026_08_10\". KHÔNG dùng con số 250 triệu cho báo giá mới."
+      },
+      {
+        "san_pham": "PUDU CC1",
+        "gia_chua_vat_vnd": 350000000,
+        "vat_8_vnd": 28000000,
+        "tong_da_vat_vnd": 378000000,
+        "bao_gom": "Robot + trạm sạc"
+      },
+      {
+        "san_pham": "PUDU MT1",
+        "gia_chua_vat_vnd": 320000000,
+        "vat_8_vnd": 25600000,
+        "tong_da_vat_vnd": 345600000,
+        "bao_gom": "Robot + trạm sạc"
+      },
+      {
+        "san_pham": "PUDU T300",
+        "gia_chua_vat_vnd": 320000000,
+        "vat_8_vnd": 25600000,
+        "tong_da_vat_vnd": 345600000,
+        "bao_gom": "Robot + trạm sạc"
+      },
+      {
+        "san_pham": "Omnie",
+        "gia_chua_vat_vnd": 450000000,
+        "vat_8_vnd": 36000000,
+        "tong_da_vat_vnd": 486000000,
+        "bao_gom": "Robot + trạm sạc"
+      },
+      {
+        "san_pham": "Gausium Phantas",
+        "gia_chua_vat_vnd": 280000000,
+        "vat_8_vnd": 22400000,
+        "tong_da_vat_vnd": 302400000,
+        "bao_gom": "Robot + trạm sạc",
+        "nguon": "Anh Phan Duy Trường cấp trực tiếp 03/08/2026",
+        "ghi_chu": "Bổ sung sau bảng chốt 30/07. Giả định CHƯA gồm VAT cho nhất quán với các dòng còn lại — anh Trường chưa nói rõ."
+      }
+    ],
+    "thue_theo_ngay": [
+      {
+        "san_pham": "BellaBot",
+        "gia_chua_vat_vnd": 4000000,
+        "vat_8_vnd": 320000,
+        "tong_da_vat_vnd": 4320000,
+        "bao_gom": "Xem dịch vụ kèm theo ở mục cho_thue"
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 5000000,
+        "vat_8_vnd": 400000,
+        "tong_da_vat_vnd": 5400000,
+        "bao_gom": "Xem dịch vụ kèm theo ở mục cho_thue"
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 6000000,
+        "vat_8_vnd": 480000,
+        "tong_da_vat_vnd": 6480000,
+        "bao_gom": "Xem dịch vụ kèm theo ở mục cho_thue"
+      }
+    ],
+    "thue_theo_thang": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 20000000,
+        "vat_8_vnd": 1600000,
+        "tong_da_vat_vnd": 21600000,
+        "nguon": "Anh Phan Duy Trường cấp trực tiếp 03/08/2026"
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 22000000,
+        "vat_8_vnd": 1760000,
+        "tong_da_vat_vnd": 23760000,
+        "nguon": "Anh Phan Duy Trường cấp trực tiếp 03/08/2026"
+      }
+    ],
+    "ghi_chu_thue_theo_thang": "Giá tháng do anh Trường cấp 03/08/2026, KHÔNG khớp bảng bậc giá cũ trong mục cho_thue (bậc 1 tháng 42 triệu, bậc 2 tháng 51 triệu). Giá mới thấp hơn nhiều — hiểu là bảng bậc cũ đã lỗi thời với hai dòng này. Giả định CHƯA gồm VAT cho nhất quán; anh Trường chưa nói rõ. BellaBot thường và các dòng còn lại vẫn CHƯA có giá tháng.",
+    "dich_vu_thue_ngay_2026_08_06": {
+      "nguon": "Anh Phan Duy Trường cấp trực tiếp 06/08/2026 khi làm báo giá thuê cho CTCP Truyền thông Infinity",
+      "ap_dung": "Thuê theo ngày. Chưa gồm VAT 8%.",
+      "hang_muc": [
+        {
+          "muc": "Vận chuyển",
+          "gia_chua_vat_vnd": 500000,
+          "vat_8_vnd": 40000,
+          "tong_da_vat_vnd": 540000,
+          "ghi_chu": "Đưa máy đến và thu hồi sau sự kiện. Landing Infinity ghi phạm vi nội thành Hà Nội — anh Trường CHƯA xác nhận phạm vi, cần hỏi lại trước khi dùng cho khách tỉnh khác."
+        },
+        {
+          "muc": "Kỹ thuật viên trực tại sự kiện",
+          "gia_chua_vat_vnd": 1000000,
+          "vat_8_vnd": 80000,
+          "tong_da_vat_vnd": 1080000,
+          "ghi_chu": "Tính theo ngày. Lập bản đồ mặt bằng, cài nội dung màn hình, vận hành và xử lý sự cố."
+        }
+      ],
+      "goi_combo": [
+        {
+          "goi": "01 GreetingBot Nova + 01 BellaBot Pro — thuê 01 ngày",
+          "gia_chua_vat_vnd": 9000000,
+          "vat_8_vnd": 720000,
+          "tong_da_vat_vnd": 9720000,
+          "cong_le_chua_vat_vnd": 11000000,
+          "tiet_kiem_chua_vat_vnd": 2000000
+        }
+      ],
+      "mau_thuan_can_hoi": "Mục \"cho_thue.dich_vu_kem_theo\" (nguồn: bao-gia-thue-robot-su-kien.pdf) ghi giá thuê ĐÃ BAO GỒM vận chuyển + setup và trực vận hành xuyên suốt sự kiện. Bảng 06/08/2026 lại tách hai hạng mục này ra tính phí riêng. Hai nguồn MÂU THUẪN — hỏi anh Trường xem bảng cũ đã bỏ hay chỉ áp dụng cho gói khác, trước khi dùng cho khách tiếp theo."
+    }
+  },
+  "gia_nova_2026_08_10": {
+    "ngay_chot": "2026-08-10",
+    "nguon": "Anh Phan Duy Trường chốt trực tiếp khi đặt làm landing báo giá GreetingBot Nova bản dùng chung",
+    "ap_dung": "Robot lễ tân AI GreetingBot Nova (OrionStar). Toàn bộ CHƯA gồm VAT 8%.",
+    "thay_the": "Giá mua đứt 220 triệu THAY THẾ mức 250 triệu trong \"bao_gia_2026_07_30.mua_dut\". Từ 10/08/2026, mọi báo giá Nova dùng 220 triệu.",
+    "mua_dut": {
+      "san_pham": "GreetingBot Nova",
+      "gia_chua_vat_vnd": 220000000,
+      "vat_8_vnd": 17600000,
+      "tong_da_vat_vnd": 237600000,
+      "bao_gom": "Robot & bàn giao · bảo hành theo chính sách hãng OrionStar · cập nhật dữ liệu AI miễn phí"
+    },
+    "thue_theo_ngay": [
+      {
+        "muc": "Thuê robot GreetingBot Nova",
+        "don_vi": "01 máy · 01 ngày",
+        "gia_chua_vat_vnd": 6000000,
+        "vat_8_vnd": 480000,
+        "tong_da_vat_vnd": 6480000
+      },
+      {
+        "muc": "Nhân sự kỹ thuật hỗ trợ vận hành",
+        "don_vi": "01 ngày",
+        "gia_chua_vat_vnd": 1000000,
+        "vat_8_vnd": 80000,
+        "tong_da_vat_vnd": 1080000
+      },
+      {
+        "muc": "Vận chuyển & thu hồi máy",
+        "don_vi": "01 lượt · nội thành Hà Nội & TP.HCM",
+        "gia_chua_vat_vnd": 500000,
+        "vat_8_vnd": 40000,
+        "tong_da_vat_vnd": 540000,
+        "ghi_chu": "Anh Trường xác nhận 10/08/2026 tính riêng, không gộp vào giá thuê máy — thống nhất với bảng 06/08/2026."
+      },
+      {
+        "muc": "Cập nhật dữ liệu AI cho robot",
+        "don_vi": "không giới hạn",
+        "gia_chua_vat_vnd": 0,
+        "mien_phi": true,
+        "ghi_chu": "Áp dụng cho cả thuê và mua. Roboworld nạp kho câu hỏi – câu trả lời riêng của đơn vị, không tính phí."
+      }
+    ],
+    "vi_du_tron_goi_1_ngay": {
+      "gom": "Robot + kỹ thuật viên + vận chuyển",
+      "cong_chua_vat_vnd": 7500000,
+      "vat_8_vnd": 600000,
+      "tong_da_vat_vnd": 8100000
+    },
+    "dung_o_dau": "cloudflare/bao-gia-robot-le-tan-nova/ — landing bản dùng chung, hồ sơ tại 10-project/_Ban-dung-chung/README.md",
+    "can_don_dep": "Ba tài liệu còn ghi Nova 250 triệu và đang chạy production: cloudflare/bao-gia-robot/index.html, cloudflare/robot-roboworld/index.html, 10-project/UBND-Mong-Duong/HO-SO.md. Phải hỏi anh Trường trước khi sửa — có thể có khách đang giữ link cũ."
+  },
+  "bao_gia_2026_08_20": {
+    "ngay_chot": "2026-08-20",
+    "nguon": "Anh Phan Duy Trường cấp trực tiếp 20/08/2026 khi làm thư báo giá gửi CTCP Đầu tư và Phát triển Năng lượng Việt Lào",
+    "ap_dung": "Ba dòng: BellaBot Pro · KettyBot Pro · GreetingBot Nova. Toàn bộ CHƯA gồm VAT 8%.",
+    "thay_the": "Giá mua BellaBot Pro 180 triệu THAY THẾ mức 165 triệu trong \"bao_gia_2026_07_30.mua_dut\". KettyBot Pro 150 triệu là giá mua ĐẦU TIÊN được ghi nhận cho dòng này. GreetingBot Nova 220 triệu KHỚP mục \"gia_nova_2026_08_10\", không đổi.",
+    "mua_dut": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 180000000,
+        "vat_8_vnd": 14400000,
+        "tong_da_vat_vnd": 194400000,
+        "tinh_trang_hang": "Có sẵn hàng — bàn giao ngay sau khi ký hợp đồng"
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "gia_chua_vat_vnd": 150000000,
+        "vat_8_vnd": 12000000,
+        "tong_da_vat_vnd": 162000000,
+        "tinh_trang_hang": "Có sẵn hàng — bàn giao ngay sau khi ký hợp đồng"
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 220000000,
+        "vat_8_vnd": 17600000,
+        "tong_da_vat_vnd": 237600000,
+        "tinh_trang_hang": "Đặt hàng — 30 đến 45 ngày kể từ ngày ký hợp đồng và nhận thanh toán đợt 1"
+      }
+    ],
+    "thue_theo_ngay": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 5000000,
+        "vat_8_vnd": 400000,
+        "tong_da_vat_vnd": 5400000
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "gia_chua_vat_vnd": 5000000,
+        "vat_8_vnd": 400000,
+        "tong_da_vat_vnd": 5400000
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 6000000,
+        "vat_8_vnd": 480000,
+        "tong_da_vat_vnd": 6480000
+      }
+    ],
+    "chinh_sach_kem_theo": [
+      "Bảo hành 12 tháng.",
+      "Hỗ trợ cập nhật phần mềm chính hãng miễn phí trọn đời.",
+      "Hỗ trợ cập nhật dữ liệu AI miễn phí trong 03 tháng.",
+      "Hướng dẫn sử dụng và đào tạo vận hành cho nhân sự khách hàng."
+    ],
+    "thanh_toan": "50% ngay khi hai bên hoàn thành ký kết hợp đồng · 50% khi bàn giao thiết bị.",
+    "can_hoi_anh_Truong": [
+      "Bảo hành 12 tháng áp dụng cho CẢ BA dòng hay chỉ dòng PUDU? Bản báo giá đang ghi chung.",
+      "Cập nhật AI miễn phí 03 tháng có mâu thuẫn với \"gia_nova_2026_08_10\" — mục đó ghi Nova được cập nhật dữ liệu AI miễn phí KHÔNG GIỚI HẠN. Cần chốt lại mốc nào đúng cho Nova.",
+      "Giá thuê đã gồm nhân sự kỹ thuật và vận chuyển chưa? Bản báo giá này ghi báo riêng; bảng 06/08 và 10/08 cũng tách riêng, nhưng bản gửi JMB 20/08 lại gộp 2.000.000 nhân sự + 1.000.000 vận chuyển thành dòng riêng trong tổng."
+    ],
+    "dung_o_dau": "10-project/Nang-luong-Viet-Lao/03-bao-gia/bao-gia-thue-mua-robot-nang-luong-viet-lao-2026-08-20.docx"
+  },
+  "bao_gia_le_tan_hcc_2026_08_25": {
+    "ngay_chot": "2026-08-25",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 25/08/2026 khi dat lam landing page robot le tan cho Trung tam Phuc vu Hanh chinh cong",
+    "ap_dung": "Nam dong robot le tan ban cho Trung tam Phuc vu Hanh chinh cong + phan mem tra cuu TTHC do Roboworld viet. Toan bo CHUA gom VAT 8%.",
+    "thay_the": "KettyBot Pro 140 trieu THAY THE muc 150 trieu trong 'bao_gia_2026_08_20'. GreetingBot AD 250 trieu va Minibot 150 trieu la gia LAN DAU duoc ghi nhan cho hai dong nay. Nova 220 trieu va BellaBot Pro 180 trieu KHONG doi.",
+    "mua_dut": [
+      {
+        "san_pham": "GreetingBot AD",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000,
+        "ghi_chu": "Dong moi, Roboworld chua co may mau tai Viet Nam — phai dat hang"
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 220000000,
+        "vat_8_vnd": 17600000,
+        "tong_da_vat_vnd": 237600000,
+        "ghi_chu": "Dat hang 30-45 ngay ke tu ngay ky HD va nhan thanh toan dot 1"
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "hang": "PUDU",
+        "gia_chua_vat_vnd": 180000000,
+        "vat_8_vnd": 14400000,
+        "tong_da_vat_vnd": 194400000,
+        "ghi_chu": "Co san hang"
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "hang": "PUDU",
+        "gia_chua_vat_vnd": 140000000,
+        "vat_8_vnd": 11200000,
+        "tong_da_vat_vnd": 151200000,
+        "ghi_chu": "Co san hang. KHONG co AI hoi thoai — chi phat giong cai san"
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 150000000,
+        "vat_8_vnd": 12000000,
+        "tong_da_vat_vnd": 162000000,
+        "ghi_chu": "Ma may OS-R-SD03. May Roboworld dang cam chay ROM 2023 KHONG co AgentOS -> khong tro chuyen AI duoc. Phai kiem tra tung may truoc khi hua"
+      }
+    ],
+    "phan_mem": {
+      "ten": "Phan mem tra cuu thu tuc hanh chinh cho Trung tam Phuc vu Hanh chinh cong",
+      "gia_chua_vat_vnd": 15000000,
+      "vat_8_vnd": 1200000,
+      "tong_da_vat_vnd": 16200000,
+      "da_chay_that_tren": [
+        "GreetingBot Nova",
+        "BellaBot Pro"
+      ],
+      "ghi_chu": "Cac dong con lai phai kiem tra tuong thich truoc khi ky hop dong"
+    },
+    "chinh_sach_kem_theo": [
+      "Bao hanh 12 thang.",
+      "Ho tro cap nhat phan mem chinh hang mien phi tron doi.",
+      "Ho tro cap nhat du lieu AI mien phi trong 03 thang.",
+      "Huong dan su dung va dao tao van hanh cho nhan su khach hang."
+    ],
+    "thanh_toan": "50% ngay khi hai ben hoan thanh ky ket hop dong · 50% khi ban giao thiet bi.",
+    "can_hoi_anh_Truong": [
+      "KettyBot Pro: 140 trieu (25/08) hay 150 trieu (20/08)? Landing dang dung 140 trieu theo chi dao moi nhat.",
+      "Gia GreetingBot AD 250 trieu da gom chi phi dat hang/van chuyen quoc te chua? Dong nay chua co may tai VN.",
+      "Minibot 150 trieu ap dung cho may co AgentOS hay may ROM cu? Hai loai khac nhau ve nang luc AI.",
+      "Phan mem 15 trieu la tron goi cho MOI so luong thu tuc, hay tinh theo so thu tuc phai nap?"
+    ],
+    "dung_o_dau": "cloudflare/lp-robot-le-tan-hcc/ (landing) · 10-project/_Ban-dung-chung/"
+  },
+  "bao_gia_vhec_2026_08_25": {
+    "ngay_chot": "2026-08-25",
+    "khach_hang": "CTCP Ky thuat Cong nghe Cao Viet Nam (VHEC) — vhec.vn",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 25/08/2026 khi dat lam bao gia PDF cho VHEC",
+    "loai": "GIA UU DAI RIENG cho mot khach hang — KHONG phai bang gia niem yet moi",
+    "ap_dung": "Mua dut 5 dong robot le tan. Toan bo CHUA gom VAT 8%.",
+    "doi_chieu": "Muc niem yet doi chieu la 'bao_gia_le_tan_hcc_2026_08_25'. Giam 10-30 trieu moi may.",
+    "mua_dut": [
+      {
+        "san_pham": "GreetingBot AD",
+        "hang": "OrionStar",
+        "gia_niem_yet_vnd": 250000000,
+        "gia_uu_dai_chua_vat_vnd": 220000000,
+        "muc_giam_vnd": 30000000,
+        "vat_8_vnd": 17600000,
+        "tong_da_vat_vnd": 237600000
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "hang": "OrionStar",
+        "gia_niem_yet_vnd": 220000000,
+        "gia_uu_dai_chua_vat_vnd": 200000000,
+        "muc_giam_vnd": 20000000,
+        "vat_8_vnd": 16000000,
+        "tong_da_vat_vnd": 216000000
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "hang": "PUDU",
+        "gia_niem_yet_vnd": 180000000,
+        "gia_uu_dai_chua_vat_vnd": 165000000,
+        "muc_giam_vnd": 15000000,
+        "vat_8_vnd": 13200000,
+        "tong_da_vat_vnd": 178200000
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "hang": "PUDU",
+        "gia_niem_yet_vnd": 140000000,
+        "gia_uu_dai_chua_vat_vnd": 130000000,
+        "muc_giam_vnd": 10000000,
+        "vat_8_vnd": 10400000,
+        "tong_da_vat_vnd": 140400000
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "hang": "OrionStar",
+        "gia_niem_yet_vnd": 150000000,
+        "gia_uu_dai_chua_vat_vnd": 130000000,
+        "muc_giam_vnd": 20000000,
+        "vat_8_vnd": 10400000,
+        "tong_da_vat_vnd": 140400000
+      }
+    ],
+    "hieu_luc": "30 ngay ke tu 25/08/2026",
+    "thanh_toan": "50% khi ky hop dong · 50% khi ban giao thiet bi.",
+    "canh_bao": [
+      "BellaBot Pro 165 trieu TRUNG mức cũ 30/07/2026 nhung o day la GIA UU DAI, khong phai quay lai bang cu.",
+      "CHUA BIET VHEC mua de dung hay de ban lai. Neu la nha tich hop mua ban lai thi day la gia ban le, chua phai gia dai ly — phai hoi anh Truong truoc khi gui.",
+      "Bao gia KHONG kem goi phan mem hanh chinh cong 15 trieu: VHEC la cong ty phan mem, nhieu kha nang tu viet."
+    ],
+    "dung_o_dau": "10-project/VHEC/03-bao-gia/Bao-gia-robot-le-tan-VHEC-25-08-2026.pdf"
+  },
+  "bao_gia_vhec_nova_phan_mem_2026_08_25": {
+    "ngay_chot": "2026-08-25",
+    "khach_hang": "CTCP Ky thuat Cong nghe Cao Viet Nam (VHEC) — vhec.vn",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 25/08/2026",
+    "loai": "Bao gia RIENG cho GreetingBot Nova + 2 goi phan mem. Ban thu HAI gui VHEC cung ngay.",
+    "khac_gi_ban_truoc": "Ban truoc (bao_gia_vhec_2026_08_25) la bang don gia 5 dong may, khong kem phan mem. Ban nay chi Nova, tron goi voi phan mem, va DA BAO GOM van chuyen/nhan su/setup/bao hanh/AI/cap nhat.",
+    "hang_muc": [
+      {
+        "ten": "GreetingBot Nova",
+        "gia_niem_yet_vnd": 220000000,
+        "gia_chua_vat_vnd": 200000000,
+        "vat_8_vnd": 16000000,
+        "tong_da_vat_vnd": 216000000
+      },
+      {
+        "ten": "Goi phan mem CO BAN",
+        "gia_chua_vat_vnd": 15000000,
+        "vat_8_vnd": 1200000,
+        "tong_da_vat_vnd": 16200000,
+        "gom": [
+          "Day du du lieu + thong tin thu tuc",
+          "Phan mem lay so thu tu tich hop robot",
+          "Tinh nang dan duong",
+          "Ca nhan hoa giong noi",
+          "Bieu cam robot"
+        ]
+      },
+      {
+        "ten": "Goi phan mem NANG CAO",
+        "gia_chua_vat_vnd": 22000000,
+        "vat_8_vnd": 1760000,
+        "tong_da_vat_vnd": 23760000,
+        "gom": [
+          "Toan bo goi co ban",
+          "Tich hop thiet bi nhan dien can cuoc cong dan (CCCD)"
+        ]
+      }
+    ],
+    "phuong_an_tron_goi": [
+      {
+        "ten": "Phuong an 1 — Nova + phan mem co ban",
+        "cong_chua_vat_vnd": 215000000,
+        "vat_8_vnd": 17200000,
+        "tong_da_vat_vnd": 232200000
+      },
+      {
+        "ten": "Phuong an 2 — Nova + phan mem nang cao",
+        "cong_chua_vat_vnd": 222000000,
+        "vat_8_vnd": 17760000,
+        "tong_da_vat_vnd": 239760000
+      }
+    ],
+    "da_bao_gom": [
+      "Chi phi van chuyen",
+      "Chi phi nhan su trien khai",
+      "Chi phi setup & cai dat tai cho",
+      "Bao hanh mien phi 12 thang",
+      "Chi phi su dung AI",
+      "Chi phi cap nhat phan mem"
+    ],
+    "hieu_luc": "30 ngay ke tu 25/08/2026",
+    "thanh_toan": "50% khi ky hop dong · 50% khi ban giao va nghiem thu.",
+    "canh_bao": [
+      "TICH HOP DAU DOC CCCD LA VIEC CHUA CO TIEN LE trong workspace: khong tai lieu nao, khong app nao da lam. Chenh 7 trieu giua hai goi la con so anh Truong dua, CHUA co du toan cong viec that.",
+      "CHUA RO goi nang cao co BAO GOM PHAN CUNG dau doc CCCD hay chi cong tich hop. Bao gia dang ghi 'tich hop thiet bi' — khach co the hieu la co ca may. Phai lam ro truoc khi ky.",
+      "Doc du lieu the CCCD gan chip la linh vuc CO RANG BUOC PHAP LY (Bo Cong an cap quyen doc). Phai xac nhan duong cap phep truoc khi cam ket.",
+      "Bao gia ghi 'chi phi su dung AI' da bao gom nhung KHONG ghi thoi han. Muc gia_nova_2026_08_10 ghi cap nhat AI mien phi khong gioi han, muc bao_gia_2026_08_20 ghi 03 thang. Can chot."
+    ],
+    "dung_o_dau": "10-project/VHEC/03-bao-gia/Bao-gia-Nova-va-phan-mem-VHEC-25-08-2026.pdf"
+  },
+  "gia_thue_minibot_2026_09_04": {
+    "ngay_chot": "2026-09-04",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 04/09/2026: thue 19 trieu tron goi, sau do TACH thanh thue 16,5 trieu + van chuyen 1,5 trieu (tong con 18 trieu chua VAT)",
+    "loai": "GIA THUE THEO THANG — lan dau ghi nhan cho dong Minibot",
+    "ap_dung": "Thue robot Minibot (GreetingBot Mini) — OrionStar, ma may OS-R-SD03. Thoi han 01 thang, 01 may.",
+    "gia_thue_thang_chua_vat_vnd": 16500000,
+    "vat_8_vnd": 1440000,
+    "tong_da_vat_vnd": 19440000,
+    "da_bao_gom": [
+      "Phan mem ung dung Roboworld viet rieng theo yeu cau khach (anh Truong chot 04/09/2026) — bao gia 0 dong",
+      "Lap dat, cai ban do, huong dan van hanh, ho tro ky thuat tu xa"
+    ],
+    "thanh_toan": "50% khi ky hop dong (9.720.000 da VAT) · 50% khi ban giao robot (9.720.000 da VAT)",
+    "hieu_luc": "15 ngay ke tu 04/09/2026",
+    "doi_chieu": "Mua dut Minibot 150 trieu chua VAT — xem 'bao_gia_le_tan_hcc_2026_08_25'. Gia thue thang cua cac dong khac chua duoc chot rieng.",
+    "can_hoi_anh_Truong": [
+      "Pham vi 'phan mem viet rieng' den dau? Thue 1 thang ma viet app rieng la khoi luong lon — co gioi han so man hinh / so noi dung khong?",
+      "May Minibot Roboworld dang cam chay ROM 2023 KHONG co AgentOS: khong tro chuyen AI duoc (do that 28/08/2026, hang chua bat LLM). Neu khach doi AI hoi thoai thi phai kiem tra may TRUOC khi ky.",
+      "Thang thu 2 tro di co giu muc thue 16.500.000 khong, hay tinh lai? Van chuyen thang sau co phai tra lai 1,5 trieu khong (may van dang o cho khach)?",
+      "Thue ngoai Ha Noi / TP.HCM thi phi van chuyen tinh the nao?"
+    ],
+    "dung_o_dau": "10-project/_Ban-dung-chung/bao-gia-thue-minibot/",
+    "phi_van_chuyen_2_chieu_chua_vat_vnd": 1500000,
+    "tam_tinh_chua_vat_vnd": 18000000,
+    "tinh_rieng": [
+      "Van chuyen 2 chieu 1.500.000 chua VAT — noi thanh Ha Noi va TP. Ho Chi Minh. Ngoai pham vi tinh theo thuc te."
+    ],
+    "lich_su_gia": "Ban dau 04/09/2026 ghi 19.000.000 tron goi. Cung ngay anh Truong yeu cau tach dong van chuyen; chot lai tong 18.000.000 chua VAT (giam 1 trieu so voi muc tron goi)."
+  },
+  "bao_gia_uri_palace_2026_09_04": {
+    "ngay_chot": "2026-09-04",
+    "nguon": "Anh Phan Duy Trường chốt trực tiếp khi đặt thêm phần báo giá vào landing lp-uri-palace-robot (Uri Palace Bắc Ninh)",
+    "ap_dung": "Đề xuất 4 dòng robot cho Uri Palace. Mọi giá CHƯA gồm VAT 8%. Không ghi thời hạn hiệu lực.",
+    "ghi_chu": "BellaBot Pro 180 tr trùng mức chốt 20/08 (bao_gia_2026_08_20). CC1 350 tr trùng bảng 30/07. Gausium Phantas 250 tr và PUDU SH1 75 tr là LẦN ĐẦU có giá chốt trong kho — trước đây hai dòng này chưa có trong bảng nào.",
+    "mua_dut": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 180000000,
+        "vat_8_vnd": 14400000,
+        "tong_da_vat_vnd": 194400000
+      },
+      {
+        "san_pham": "PUDU CC1",
+        "gia_chua_vat_vnd": 350000000,
+        "vat_8_vnd": 28000000,
+        "tong_da_vat_vnd": 378000000
+      },
+      {
+        "san_pham": "Gausium Phantas",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000
+      },
+      {
+        "san_pham": "PUDU SH1",
+        "gia_chua_vat_vnd": 75000000,
+        "vat_8_vnd": 6000000,
+        "tong_da_vat_vnd": 81000000
+      }
+    ],
+    "cau_hinh_khoi_diem_1_may_moi_dong": {
+      "chua_vat_vnd": 855000000,
+      "vat_8_vnd": 68400000,
+      "tong_da_vat_vnd": 923400000
+    },
+    "chua_gom_tren_landing": "Phần mềm riêng cho Uri Palace · trạm cấp-xả nước · mô-đun thang máy · dung dịch có hương — landing ghi 'báo giá riêng sau khảo sát' (tự suy từ hồ sơ SBF, anh Trường chưa xác nhận)",
+    "landing": "https://lp-uri-palace-robot.pages.dev/#bao-gia"
+  },
+  "bao_gia_mat_troi_2026_09_08": {
+    "ngay_chot": "2026-09-08",
+    "khach_hang": "Cong ty Co phan Tap doan Mat Troi — MST 0305016195",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 08/09/2026 khi dat lam landing bao gia",
+    "ap_dung": "GIA RIENG cho khach nay, khong dung cho khach khac. Toan bo CHUA gom VAT 8%. Thue ngay DA GOM nhan su ky thuat.",
+    "lech_voi_bang_cu": "Nova mua 230 trieu (10/08: 220) · Mini mua 170 trieu (HCC 25/08: 150) · Nova thue thang 20 trieu (03/08: 22) · Mini thue thang 15 trieu (Minibot 04/09: 16,5). BellaBot Pro 180 trieu KHONG doi.",
+    "san_pham": [
+      {
+        "san_pham": "GreetingBot Nova",
+        "hang": "OrionStar",
+        "mua_dut_chua_vat_vnd": 230000000,
+        "thue_ngay_chua_vat_vnd": 6000000,
+        "thue_thang_chua_vat_vnd": 20000000
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "hang": "PUDU Robotics",
+        "mua_dut_chua_vat_vnd": 180000000,
+        "thue_ngay_chua_vat_vnd": 6000000,
+        "thue_thang_chua_vat_vnd": 20000000
+      },
+      {
+        "san_pham": "GreetingBot Mini",
+        "hang": "OrionStar",
+        "mua_dut_chua_vat_vnd": 170000000,
+        "thue_ngay_chua_vat_vnd": 5000000,
+        "thue_thang_chua_vat_vnd": 15000000
+      }
+    ],
+    "uu_dai": "Tang phan mem ca nhan hoa tri gia 20.000.000 VND cho DON THUE DAU TIEN",
+    "chua_chot": [
+      "Hieu luc bao gia (landing tu ghi 30 ngay theo le cu)",
+      "Thue thang gom gi (van chuyen, ky thuat dinh ky)",
+      "Dia chi khach hang"
+    ],
+    "dung_o_dau": "cloudflare/bao-gia-robot-mat-troi/ (landing) · 10-project/Tap-Doan-Mat-Troi/HO-SO.md"
+  },
+  "gia_thue_booster_k1_2026_09_08": {
+    "ngay_chot": "2026-09-08",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 08/09/2026 khi dat lam PDF bao gia thue 1 trang",
+    "loai": "GIA THUE NIEM YET — lan dau ghi nhan cho robot hinh nguoi Booster K1 (Booster Robotics). Khong gan khach cu the.",
+    "thue_ngay_chua_vat_vnd": 20000000,
+    "thue_ngay_vat_8_vnd": 1600000,
+    "thue_ngay_da_vat_vnd": 21600000,
+    "goi_10_ngay_chua_vat_vnd": 100000000,
+    "goi_10_ngay_vat_8_vnd": 8000000,
+    "goi_10_ngay_da_vat_vnd": 108000000,
+    "da_bao_gom": [
+      "Nhan su ky thuat van hanh robot tai cho — ca hai phuong an"
+    ],
+    "chua_chot": [
+      "Hieu luc bao gia (PDF tu ghi 15 ngay theo ban Minibot)",
+      "Van chuyen ngoai HN/HCM",
+      "Goi 10 ngay phai lien tuc hay tach ngay",
+      "Dieu khoan thanh toan (PDF KHONG ghi)"
+    ],
+    "dung_o_dau": "10-project/_Ban-dung-chung/bao-gia-thue-booster-k1/"
+  },
+  "bao_gia_robot_ve_sinh_san_the_thao_2026_09_08": {
+    "ngay_chot": "2026-09-08",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 08/09/2026 khi dat lam landing robot ve sinh cho san the thao (pickleball, cau long, nha thi dau)",
+    "loai": "GIA MUA DUT NIEM YET cho 3 dong robot ve sinh — khong gan khach cu the. Dung cho landing cong khai lp-robot-ve-sinh-san-the-thao.pages.dev",
+    "vat": "8%, tinh rieng",
+    "dong_may": [
+      {
+        "model": "PUDU MT1",
+        "chua_vat_vnd": 300000000,
+        "vat_8_vnd": 24000000,
+        "da_vat_vnd": 324000000,
+        "bao_gom": "Da bao gom tram sac (anh Truong ghi ro)"
+      },
+      {
+        "model": "PUDU MT1 Vac",
+        "chua_vat_vnd": 310000000,
+        "vat_8_vnd": 24800000,
+        "da_vat_vnd": 334800000,
+        "bao_gom": "Anh Truong KHONG ghi tram sac — landing khong khang dinh"
+      },
+      {
+        "model": "Gausium Beetle",
+        "chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "da_vat_vnd": 270000000,
+        "bao_gom": "Anh Truong KHONG ghi tram sac — landing khong khang dinh"
+      }
+    ],
+    "lech_voi_ban_truoc": "bao_gia_2026_07_30 ghi MT1 320 trieu (chua VAT). Ban 08/09 ghi 300 trieu VA kem tram sac — coi day la muc moi cho landing san the thao. Chua hoi lai anh Truong xem 320 trieu con hieu luc cho khach khac khong.",
+    "chua_chot": [
+      "Hieu luc bao gia",
+      "MT1 Vac va Beetle co kem tram sac khong",
+      "Bao hanh 12 thang co ap dung cho Gausium Beetle nhu dong PUDU khong (cau hoi cu tu bao_gia_2026_07_30 van chua co tra loi)",
+      "Van chuyen, lap dat, ve ban do co tinh rieng khong"
+    ],
+    "dung_o_dau": "cloudflare/lp-robot-ve-sinh-san-the-thao/ · 10-project/_Ban-dung-chung/README.md"
+  },
+  "bao_gia_le_tan_2026_09_14": {
+    "ngay_chot": "2026-09-14",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 14/09/2026 khi dat lam bao gia PDF robot le tan theo form VHEC (thue + mua so huu vinh vien)",
+    "loai": "GIA NIEM YET dung chung — khong gan khach cu the",
+    "ap_dung": "Ba dong robot le tan OrionStar. Toan bo CHUA gom VAT 8%. Tai lieu goi 'mua dut' la 'mua so huu vinh vien' theo yeu cau anh Truong.",
+    "thay_the": "Minibot mua 180 trieu THAY THE muc 150 trieu trong 'bao_gia_le_tan_hcc_2026_08_25'. Minibot thue 5 trieu/ngay la gia thue NGAY lan dau ghi nhan (truoc chi co thue thang 16,5 trieu — 'gia_thue_minibot_2026_09_04'). GreetingBot AD 250 trieu va Nova 220 trieu KHONG doi.",
+    "mua_so_huu_vinh_vien": [
+      {
+        "san_pham": "GreetingBot AD",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 220000000,
+        "vat_8_vnd": 17600000,
+        "tong_da_vat_vnd": 237600000
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "hang": "OrionStar",
+        "gia_chua_vat_vnd": 180000000,
+        "vat_8_vnd": 14400000,
+        "tong_da_vat_vnd": 194400000
+      }
+    ],
+    "thue_theo_ngay": [
+      {
+        "san_pham": "GreetingBot AD",
+        "cho_thue": false,
+        "ghi_chu": "KHONG cho thue theo ngay — anh Truong chot 14/09/2026. Bao gia khong ghi muc thue cho dong nay."
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 7000000,
+        "gom": "Robot 6.000.000 + nhan su ky thuat 1.000.000",
+        "vat_8_vnd": 560000,
+        "tong_da_vat_vnd": 7560000
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "gia_chua_vat_vnd": 5000000,
+        "vat_8_vnd": 400000,
+        "tong_da_vat_vnd": 5400000,
+        "ghi_chu": "Chua ro co kem ky thuat vien 1 trieu/ngay nhu Nova khong — bao gia chi ghi thue robot"
+      }
+    ],
+    "can_hoi_anh_Truong": [
+      "Minibot thue 5 trieu la theo NGAY (dang ghi vay, cung don vi voi Nova 6 trieu/ngay)?",
+      "Thue Minibot co can kem ky thuat vien 1 trieu/ngay khong?",
+      "Cap nhat du lieu AI: 'gia_nova_2026_08_10' ghi mien phi khong gioi han, 'bao_gia_le_tan_hcc_2026_08_25' ghi mien phi 03 thang — bao gia nay theo form VHEC ghi 03 thang.",
+      "May Minibot Roboworld dang cam chay ROM 2023 KHONG co AgentOS — khong hua AI hoi thoai."
+    ],
+    "dung_o_dau": "10-project/_Ban-dung-chung/bao-gia-robot-le-tan/"
+  },
+  "bao_gia_holaco_2026_09_15": {
+    "ngay_chot": "2026-09-15",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 15/09/2026 khi dat lam bao gia PDF cho CONG TY TNHH MOT THANH VIEN HOLACO",
+    "loai": "GIA DOI TAC — gan rieng khach HOLACO, KHONG dung lam gia niem yet",
+    "vat": "8%, tinh rieng",
+    "bao_gia_rieng_tung_may": "Anh Truong yeu cau 15/09: bao gia RIENG 2 robot, KHONG gop tong.",
+    "ten_xuat_hoa_don": "Lay NGUYEN VAN cot 'Ten hai quan' file Kiem hang 01.07.2026 — ban trich: 10-project/Holaco/tu-lieu/ten-xuat-hoa-don.json",
+    "thoi_gian_dat_hang": "San pham co san: 3-5 ngay · san pham het hang can order: 30-45 ngay (anh Truong 15/09/2026)",
+    "mua_dut": [
+      {
+        "san_pham": "Gausium Phantas",
+        "gia_goc_chua_vat_vnd": 270000000,
+        "gia_doi_tac_chua_vat_vnd": 230000000,
+        "vat_8_vnd": 18400000,
+        "tong_da_vat_vnd": 248400000,
+        "bao_gom": "Tram sac tu dong WS-03-S (sac + cap nuoc sach + xa nuoc thai) — anh Truong xac nhan 15/09"
+      },
+      {
+        "san_pham": "PUDU CC1",
+        "gia_goc_chua_vat_vnd": 380000000,
+        "gia_doi_tac_chua_vat_vnd": 320000000,
+        "vat_8_vnd": 25600000,
+        "tong_da_vat_vnd": 345600000,
+        "bao_gom": "Tram sac nuoc tu dong PUDU CC1 workstation (ma 11010-000002, model SDBC01) — anh Truong xac nhan 15/09"
+      }
+    ],
+    "lech_voi_ban_truoc": "Gia GOC o day lech cac muc da ghi: Phantas 280 tr (bao_gia_2026_07_30, cap 03/08) va 250 tr (bao_gia_uri_palace_2026_09_04); CC1 350 tr (bao_gia_2026_07_30 va Uri Palace). Bao gia HOLACO dung dung so anh Truong dua 15/09.",
+    "chua_chot": [
+      "So luong moi dong (bao gia dang tinh 01 may moi dong)",
+      "Hieu luc bao gia (dang ghi 30 ngay theo mau NewGen/VHEC)",
+      "Bao hanh Gausium Phantas co 12 thang nhu dong PUDU khong"
+    ],
+    "dung_o_dau": "10-project/Holaco/03-bao-gia/"
+  },
+  "bao_gia_phu_quoc_2026_09_23": {
+    "ngay_chot": "2026-09-23",
+    "nguon": "Anh Phan Duy Trường cấp trực tiếp 23/09/2026 khi đặt làm báo giá PDF cho đơn hàng triển khai tại Phú Quốc",
+    "loai": "Báo giá dùng chung cho đơn hàng Phú Quốc — anh Trường chọn bản KHÔNG ghi tên khách (23/09/2026)",
+    "vat": "8%, tính riêng. Mọi con số dưới đây CHƯA gồm VAT",
+    "hieu_luc": "15 ngày kể từ 23/09/2026 — đến hết 08/10/2026 (anh Trường chọn 23/09)",
+    "mua_dut": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_niem_yet_chua_vat_vnd": 180000000,
+        "gia_mua_truc_tiep_chua_vat_vnd": 160000000,
+        "tiet_kiem_vnd": 20000000,
+        "vat_8_tren_gia_mua_truc_tiep_vnd": 12800000,
+        "tong_da_vat_gia_mua_truc_tiep_vnd": 172800000,
+        "thue_thang_chua_vat_vnd": 25000000
+      },
+      {
+        "san_pham": "BellaBot",
+        "gia_niem_yet_chua_vat_vnd": 165000000,
+        "gia_mua_truc_tiep_chua_vat_vnd": 130000000,
+        "tiet_kiem_vnd": 35000000,
+        "vat_8_tren_gia_mua_truc_tiep_vnd": 10400000,
+        "tong_da_vat_gia_mua_truc_tiep_vnd": 140400000,
+        "thue_thang_chua_vat_vnd": 20000000
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "gia_niem_yet_chua_vat_vnd": 165000000,
+        "gia_mua_truc_tiep_chua_vat_vnd": 135000000,
+        "tiet_kiem_vnd": 30000000,
+        "vat_8_tren_gia_mua_truc_tiep_vnd": 10800000,
+        "tong_da_vat_gia_mua_truc_tiep_vnd": 145800000,
+        "thue_thang_chua_vat_vnd": null
+      },
+      {
+        "san_pham": "PuduBot 2",
+        "gia_niem_yet_chua_vat_vnd": 125000000,
+        "gia_mua_truc_tiep_chua_vat_vnd": 110000000,
+        "tiet_kiem_vnd": 15000000,
+        "vat_8_tren_gia_mua_truc_tiep_vnd": 8800000,
+        "tong_da_vat_gia_mua_truc_tiep_vnd": 118800000,
+        "thue_thang_chua_vat_vnd": 15000000
+      }
+    ],
+    "ghi_chu_thue": "KettyBot Pro: HẾT máy cho thuê tại thời điểm 23/09/2026, chỉ nhận đơn mua đứt. Đơn giá thuê áp dụng kỳ 01 tháng.",
+    "trien_khai_phu_quoc": {
+      "noi_dung": "Vận chuyển robot ra Phú Quốc + nhân sự kỹ thuật có mặt tại chỗ 03 ngày (lập bản đồ, cấu hình, chạy thử, đào tạo)",
+      "chi_phi_chua_vat_vnd": 15000000,
+      "vat_8_vnd": 1200000,
+      "tong_da_vat_vnd": 16200000,
+      "gia_dinh_can_xac_nhan": "Báo giá đang ghi khoản này là TRỌN GÓI cho MỘT đợt triển khai, không nhân theo số máy, và CHƯA gồm VAT như mọi con số khác. Anh Trường chỉ nói \"tổng chi phí là 15tr\" — cần xác nhận hai điểm này."
+    },
+    "lech_voi_ban_truoc": "Giá niêm yết ở đây lệch các mục cũ: BellaBot 165 tr (bao_gia_2026_07_30: 150 tr), KettyBot Pro 165 tr (bao_gia_2026_08_20: 150 tr), PuduBot 2 125 tr (products.json: 115 tr). BellaBot Pro 180 tr KHỚP bao_gia_2026_08_20. Thuê tháng: BellaBot Pro 25 tr và BellaBot 20 tr khớp bảng 04/08; PuduBot 2 15 tr (bảng 04/08 ghi 10 tr).",
+    "can_hoi_anh_Truong": [
+      "Khoản 15.000.000 Phú Quốc đã gồm VAT chưa, và có tính theo từng máy không?",
+      "Ưu đãi mua trực tiếp hiểu là chốt mua trong hiệu lực 15 ngày — đúng ý anh không?",
+      "Landing bao-gia-robot-nha-hang.pages.dev đang chạy production vẫn ghi giá 04/08/2026 (BellaBot Pro 165 tr, PuduBot 2 thuê 10 tr) — có cập nhật theo bảng mới không?"
+    ],
+    "dung_o_dau": "10-project/_Ban-dung-chung/bao-gia-robot-phu-quoc/"
+  },
+  "bang_gia_landing_le_tan_phuc_vu_2026_10_02": {
+    "ngay_chot": "2026-10-02",
+    "nguon": "Anh Phan Duy Trường chốt trực tiếp 02/10/2026 khi đặt làm landing robot-le-tan-phuc-vu. Sáng: chọn 'niêm yết mới nhất' + 'mua + thuê ngày'. Chiều: thêm BellaBot 135 triệu, sửa BellaBot Pro còn 165 triệu, ghi tình trạng hàng.",
+    "loai": "GIÁ NIÊM YẾT dùng chung cho 6 dòng lễ tân & phục vụ — không gắn khách cụ thể. Toàn bộ hiểu là CHƯA gồm VAT 8% (BellaBot 135 và BellaBot Pro 165 anh Trường không nói rõ VAT). Không ghi thời hạn hiệu lực.",
+    "san_pham": [
+      {
+        "san_pham": "GreetingBot Nova",
+        "mua_chua_vat_vnd": 220000000,
+        "thue_ngay_chua_vat_vnd": 6000000,
+        "hang_demo": "có sẵn",
+        "hang_mua": "cần order"
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "mua_chua_vat_vnd": 180000000,
+        "thue_ngay_chua_vat_vnd": 5000000,
+        "hang_demo": "có sẵn",
+        "hang_mua": "cần order"
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "mua_chua_vat_vnd": 165000000,
+        "thue_ngay_chua_vat_vnd": 5000000,
+        "hang_demo": "có sẵn",
+        "hang_mua": "có sẵn",
+        "ghi_chu": "165 triệu THAY mức 180 triệu của 'bao_gia_2026_08_20' làm giá niêm yết trên landing này"
+      },
+      {
+        "san_pham": "BellaBot",
+        "mua_chua_vat_vnd": 135000000,
+        "thue_ngay_chua_vat_vnd": 4000000,
+        "hang_demo": "có sẵn",
+        "hang_mua": "có sẵn",
+        "ghi_chu": "135 triệu anh Trường cấp 02/10/2026 (bảng 30/07: 150 triệu; niêm yết Phú Quốc 23/09: 165 triệu). Thuê 4 triệu/ngày lấy từ 'bao_gia_2026_07_30', anh Trường chưa nhắc lại"
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "mua_chua_vat_vnd": 165000000,
+        "thue_ngay_chua_vat_vnd": 5000000,
+        "hang_demo": "hết",
+        "hang_mua": "cần order"
+      },
+      {
+        "san_pham": "PuduBot 2",
+        "mua_chua_vat_vnd": 125000000,
+        "thue_ngay_chua_vat_vnd": null,
+        "hang_demo": "hết",
+        "hang_mua": "cần order",
+        "ghi_chu": "Chưa có giá thuê ngày — landing ghi 'Liên hệ'"
+      }
+    ],
+    "tinh_trang_hang_ngay": "2026-10-02",
+    "tinh_rieng_khi_thue": [
+      "Nhân sự kỹ thuật hỗ trợ vận hành 1.000.000/ngày",
+      "Vận chuyển & thu hồi 500.000/lượt nội thành Hà Nội, TP.HCM"
+    ],
+    "thay_the": "KettyBot Pro 165 triệu và PuduBot 2 125 triệu là cột NIÊM YẾT của 'bao_gia_phu_quoc_2026_09_23', nay dùng làm giá niêm yết chung. BellaBot Pro 165 triệu và BellaBot 135 triệu là mức anh Trường đưa 02/10/2026.",
+    "can_hoi_anh_Truong": [
+      "KettyBot Pro hết hàng demo — còn máy cho thuê ngày 5 triệu không, hay đổi thành 'Liên hệ'?",
+      "BellaBot thuê 4 triệu/ngày (bảng 30/07) còn dùng không?",
+      "Cập nhật dữ liệu AI miễn phí 03 tháng (đang ghi trên landing) hay không giới hạn (gia_nova_2026_08_10)?"
+    ],
+    "dung_o_dau": "cloudflare/robot-le-tan-phuc-vu/ · https://robot-le-tan-phuc-vu.pages.dev · 10-project/_Ban-dung-chung/landing-robot-le-tan-phuc-vu/NGUON.md"
+  },
+  "bao_gia_tttm_ab_nha_trang_2026_10_16": {
+    "ngay_chot": "2026-10-16",
+    "khach_hang": "Trung tam thuong mai AB Nha Trang",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 16/10/2026 khi dat lam bao gia PDF cho TTTM AB Nha Trang",
+    "loai": "GIA RIENG cho mot khach hang, mua dut TRON GOI — KHONG phai bang gia niem yet moi",
+    "ap_dung": "Mua dut 5 dong robot, don gia 01 may. Toan bo CHUA gom VAT 8%. KHONG cong tong (anh Truong yeu cau).",
+    "da_bao_gom": [
+      "Van chuyen",
+      "Lap dat",
+      "Cai dat",
+      "Huong dan van hanh",
+      "Ho tro phan mem",
+      "AI cap nhat mien phi tron doi",
+      "Bao hanh mien phi 12 thang"
+    ],
+    "mua_dut": [
+      {
+        "san_pham": "GreetingBot AD",
+        "gia_chua_vat_vnd": 260000000,
+        "vat_8_vnd": 20800000,
+        "tong_da_vat_vnd": 280800000
+      },
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000
+      },
+      {
+        "san_pham": "GreetingBot Mini",
+        "gia_chua_vat_vnd": 200000000,
+        "vat_8_vnd": 16000000,
+        "tong_da_vat_vnd": 216000000
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 180000000,
+        "vat_8_vnd": 14400000,
+        "tong_da_vat_vnd": 194400000
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "gia_chua_vat_vnd": 145000000,
+        "vat_8_vnd": 11600000,
+        "tong_da_vat_vnd": 156600000
+      }
+    ],
+    "doi_chieu": "Cao hon 'bao_gia_le_tan_2026_09_14' / 'bao_gia_le_tan_hcc_2026_08_25' (AD 250 · Nova 220 · Mini 150 · KettyBot Pro 140). BellaBot Pro 180 khong doi. Chenh lech nhieu kha nang do tron goi van chuyen ra Nha Trang — chua hoi.",
+    "can_hoi_anh_Truong": [
+      "KettyBot Pro 145 trieu da gom tram sac tu dong chua? Bao gia dang ghi tram sac la phu kien tuy chon."
+    ],
+    "dung_o_dau": "10-project/TTTM-AB-Nha-Trang/03-bao-gia/Bao-gia-robot-TTTM-AB-Nha-Trang-16-10-2026.pdf"
+  },
+  "bao_gia_uu_dai_nova_tttm_ab_nha_trang_2026_10_20": {
+    "ngay_chot": "2026-10-20",
+    "khach_hang": "Trung tam thuong mai AB Nha Trang",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 20/10/2026: gia ban dau 250tr + VAT 8%, uu dai con 210tr + VAT 8%, chi ap dung khi khach DAT HANG SOM TRONG THANG 10",
+    "loai": "GIA UU DAI RIENG cho mot khach hang, co thoi han — KHONG phai bang gia niem yet moi",
+    "san_pham": "GreetingBot Nova",
+    "gia_niem_yet_chua_vat_vnd": 250000000,
+    "gia_niem_yet_da_vat_vnd": 270000000,
+    "gia_uu_dai_chua_vat_vnd": 210000000,
+    "vat_8_vnd": 16800000,
+    "tong_da_vat_vnd": 226800000,
+    "giam_chua_vat_vnd": 40000000,
+    "giam_da_vat_vnd": 43200000,
+    "han_uu_dai": "Don dat hang trong thang 10/2026 (den het 31/10/2026). Tu 01/11/2026 ve gia 250tr chua VAT.",
+    "tang_kem": [
+      "Phan mem thiet ke rieng cua Roboworld cho trung tam thuong mai"
+    ],
+    "da_bao_gom": [
+      "Bao hanh mien phi 12 thang",
+      "Mien phi AI",
+      "Mien phi cap nhat phan mem",
+      "Lap dat",
+      "Giao hang",
+      "San pham chinh hang, day du giay to"
+    ],
+    "doi_chieu": "Gia niem yet 250tr trung muc Nova trong 'bao_gia_tttm_ab_nha_trang_2026_10_16'. Muc 210tr thap hon gia chung 220tr ('gia_nova_2026_08_10').",
+    "dung_o_dau": "10-project/TTTM-AB-Nha-Trang/03-bao-gia/Bao-gia-uu-dai-Nova-TTTM-AB-Nha-Trang-20-10-2026.pdf"
+  },
+  "bao_gia_chi_tiet_nova_tttm_ab_2026_11_03": {
+    "ngay_chot": "2026-11-03",
+    "khach_hang": "Trung tam thuong mai AB Nha Trang",
+    "nguon": "Anh Phan Duy Truong giao truc tiep 03/11/2026. Anh ghi '250tr + 8% VAT xuong 22tr + 8% VAT', KHONG neu ten robot: hieu la GreetingBot Nova, 220 trieu (250 la gia Nova bao AB 16/10) — CHO ANH XAC NHAN",
+    "loai": "GIA RIENG cho mot khach hang, mua dut tron goi — KHONG phai bang gia niem yet moi",
+    "san_pham": "GreetingBot Nova (da gom tram sac tu dong)",
+    "gia_goc_chua_vat_vnd": 250000000,
+    "gia_uu_dai_chua_vat_vnd": 220000000,
+    "vat_8_vnd": 17600000,
+    "tong_da_vat_vnd": 237600000,
+    "tang_kem": [{"muc": "Phan mem robot thiet ke rieng", "tri_gia_vnd": 30000000, "gia_vnd": 0}],
+    "khong_thu_phi": ["Van chuyen", "Nhan su lap dat tan noi"],
+    "thanh_toan": "30% khi ky HD (71.280.000 da VAT) · 70% khi giao hang (166.320.000 da VAT)",
+    "bao_hanh": "Robot chinh hang mien phi 12 thang · phan mem tron doi · AI robot tron doi",
+    "thay_the": "Thay muc 210 trieu trong 'bao_gia_uu_dai_nova_tttm_ab_nha_trang_2026_10_20' (het han 31/10/2026).",
+    "doi_chieu": "220 trieu TRUNG gia chung 'gia_nova_2026_08_10', dang cong khai tren cac landing. Bao gia ghi 250 trieu la 'gia goc', KHONG ghi 'niem yet'.",
+    "lay_theo_mau_cu_chua_chot": [
+      "Hieu luc 30 ngay",
+      "Giao hang 30-45 ngay (RBW ONE 03/11: kho moi Nova = 0, chi co may demo)",
+      "SLA 24 gio tiep nhan · 72 gio cu ky thuat: chep tu HD BV Uong Bi",
+      "Moc tien do trong bao gia: khao sat N+7, phan mem N+30, lap dat 02 ngay, nghiem thu 01 ngay — do tro ly de xuat"
+    ],
+    "dung_o_dau": "10-project/TTTM-AB-Nha-Trang/03-bao-gia/[RBW] Bao gia GreetingBot Nova - TTTM AB Nha Trang - 03-11-2026.pdf (ban gui, 2 trang) · [RBW] Bao gia chi tiet GreetingBot Nova - TTTM AB Nha Trang - 03-11-2026.pdf (7 trang)"
+  },
+  "bao_gia_doi_tac_3s_2026_10_27": {
+    "ngay_chot": "2026-10-27",
+    "khach_hang": "Cong ty 3S (doi tac) — chua co ten phap nhan, MST",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 27/10/2026 khi dat lam bao gia PDF cho doi tac 3S",
+    "loai": "GIA DOI TAC — chiet khau 5% tren gia niem yet CHUA VAT; VAT 8% tinh tren gia sau chiet khau. KHONG cong tong (anh Truong yeu cau).",
+    "mua_dut": [
+      {
+        "san_pham": "GreetingBot Nova",
+        "gia_niem_yet_chua_vat_vnd": 220000000,
+        "chiet_khau_5_vnd": 11000000,
+        "gia_doi_tac_chua_vat_vnd": 209000000,
+        "vat_8_vnd": 16720000,
+        "gia_doi_tac_da_vat_vnd": 225720000
+      },
+      {
+        "san_pham": "Minibot (GreetingBot Mini)",
+        "gia_niem_yet_chua_vat_vnd": 180000000,
+        "chiet_khau_5_vnd": 9000000,
+        "gia_doi_tac_chua_vat_vnd": 171000000,
+        "vat_8_vnd": 13680000,
+        "gia_doi_tac_da_vat_vnd": 184680000
+      },
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_niem_yet_chua_vat_vnd": 165000000,
+        "chiet_khau_5_vnd": 8250000,
+        "gia_doi_tac_chua_vat_vnd": 156750000,
+        "vat_8_vnd": 12540000,
+        "gia_doi_tac_da_vat_vnd": 169290000
+      },
+      {
+        "san_pham": "BellaBot",
+        "gia_niem_yet_chua_vat_vnd": 135000000,
+        "chiet_khau_5_vnd": 6750000,
+        "gia_doi_tac_chua_vat_vnd": 128250000,
+        "vat_8_vnd": 10260000,
+        "gia_doi_tac_da_vat_vnd": 138510000
+      },
+      {
+        "san_pham": "KettyBot Pro",
+        "gia_niem_yet_chua_vat_vnd": 140000000,
+        "chiet_khau_5_vnd": 7000000,
+        "gia_doi_tac_chua_vat_vnd": 133000000,
+        "vat_8_vnd": 10640000,
+        "gia_doi_tac_da_vat_vnd": 143640000
+      },
+      {
+        "san_pham": "PuduBot 2",
+        "gia_niem_yet_chua_vat_vnd": 120000000,
+        "chiet_khau_5_vnd": 6000000,
+        "gia_doi_tac_chua_vat_vnd": 114000000,
+        "vat_8_vnd": 9120000,
+        "gia_doi_tac_da_vat_vnd": 123120000
+      }
+    ],
+    "lech_voi_bang_cu": "Niem yet KettyBot Pro 140 tr va PuduBot 2 120 tr anh Truong dua 27/10 — thap hon 165 / 125 tr trong 'bang_gia_landing_le_tan_phuc_vu_2026_10_02'. Bon dong con lai trung bang 02/10.",
+    "lay_theo_mau_cu_chua_chot": [
+      "Hieu luc 30 ngay",
+      "Thanh toan 50/50",
+      "Giao hang 30-45 ngay",
+      "Bao hanh 12 thang",
+      "Tram sac KettyBot Pro la phu kien tuy chon"
+    ],
+    "bo_sung_ve_sinh_2026_10_29": {
+      "nguon": "RBW ONE /api/bg/bang_gia (doc 29/10/2026): MT1 SP-00001 gia_niem_yet 290tr + phu kien 'Tram sac MT1' 19,5tr; CC1 SP-00004 gia_niem_yet 320tr + 'Tram sac thay nuoc CC1' 35tr + 'Tram sac thay nuoc + ve sinh choi CC1' 50tr. Anh Truong dat 29/10: lay gia RBW ONE, kem tram sac, chiet khau 5%.",
+      "lech_voi_bang_cu": "bao_gia_2026_07_30 ghi MT1 320tr va CC1 350tr (da gom tram sac). RBW ONE tach robot + tram: MT1 290 + 19,5 = 309,5tr; CC1 320 + 35 = 355tr.",
+      "mua_dut": [
+        {"san_pham": "PUDU MT1", "gia_niem_yet_chua_vat_vnd": 290000000, "chiet_khau_5_vnd": 14500000, "gia_doi_tac_chua_vat_vnd": 275500000, "vat_8_vnd": 22040000, "gia_doi_tac_da_vat_vnd": 297540000},
+        {"san_pham": "Tram sac MT1", "gia_niem_yet_chua_vat_vnd": 19500000, "chiet_khau_5_vnd": 975000, "gia_doi_tac_chua_vat_vnd": 18525000, "vat_8_vnd": 1482000, "gia_doi_tac_da_vat_vnd": 20007000},
+        {"san_pham": "PUDU CC1", "gia_niem_yet_chua_vat_vnd": 320000000, "chiet_khau_5_vnd": 16000000, "gia_doi_tac_chua_vat_vnd": 304000000, "vat_8_vnd": 24320000, "gia_doi_tac_da_vat_vnd": 328320000},
+        {"san_pham": "Tram sac thay nuoc CC1", "gia_niem_yet_chua_vat_vnd": 35000000, "chiet_khau_5_vnd": 1750000, "gia_doi_tac_chua_vat_vnd": 33250000, "vat_8_vnd": 2660000, "gia_doi_tac_da_vat_vnd": 35910000},
+        {"san_pham": "Tram sac thay nuoc + ve sinh choi CC1 (tuy chon nang cap)", "gia_niem_yet_chua_vat_vnd": 50000000, "chiet_khau_5_vnd": 2500000, "gia_doi_tac_chua_vat_vnd": 47500000, "vat_8_vnd": 3800000, "gia_doi_tac_da_vat_vnd": 51300000}
+      ],
+      "ghi_chu": "RBW ONE cung ghi 'Tram sac' 16,9tr la phu kien ban rieng cho KettyBot Pro va PuduBot 2 — bao gia 3S chi ghi la phu kien tuy chon, chua dua gia."
+    },
+    "dung_o_dau": "10-project/Cong-ty-3S/03-bao-gia/[RBW] Bao gia doi tac 3S - 29-10-2026.pdf"
+  },
+  "bao_gia_bidv_2026_10_27": {
+    "ngay_chot": "2026-10-27",
+    "khach_hang": "Ngan hang TMCP Dau tu va Phat trien Viet Nam (BIDV) — Ban KHBL, theo RFP robot le tan 10/2026",
+    "nguon": "Anh Phan Duy Truong cap truc tiep 27/10/2026: Nova 220tr + VAT 8%, phan mem ca nhan hoa 15tr + VAT 8%, ho tro nhan su ky thuat 1tr/ngay",
+    "hang_muc": [
+      {
+        "ten": "GreetingBot Nova",
+        "so_luong": 1,
+        "gia_chua_vat_vnd": 220000000,
+        "vat_8_vnd": 17600000,
+        "tong_da_vat_vnd": 237600000
+      },
+      {
+        "ten": "Phan mem ca nhan hoa cho BIDV",
+        "so_luong": 1,
+        "gia_chua_vat_vnd": 15000000,
+        "vat_8_vnd": 1200000,
+        "tong_da_vat_vnd": 16200000
+      },
+      {
+        "ten": "Ho tro nhan su ky thuat",
+        "don_vi": "01 nguoi · 01 ngay",
+        "gia_chua_vat_vnd": 1000000,
+        "vat_8_vnd": 80000,
+        "tong_da_vat_vnd": 1080000,
+        "ghi_chu": "Anh Truong khong noi ro VAT — tinh CHUA VAT nhu 'gia_nova_2026_08_10'. Tinh theo so ngay thuc te, KHONG cong vao tong."
+      }
+    ],
+    "tong_nova_va_phan_mem": {
+      "chua_vat_vnd": 235000000,
+      "vat_8_vnd": 18800000,
+      "da_vat_vnd": 253800000
+    },
+    "doi_chieu": "Nova 220tr trung 'gia_nova_2026_08_10'. Phan mem 15tr trung 'Goi phan mem CO BAN' trong 'bao_gia_vhec_nova_phan_mem_2026_08_25'. Nhan su ky thuat 1tr/ngay trung 'gia_nova_2026_08_10'.",
+    "lay_theo_mau_cu_chua_chot": [
+      "Pham vi phan mem ca nhan hoa (ghi khung, chot sau khao sat) — CHUA ghi Face ID VIP cuc bo, web quan tri VIP, dong bo tivi theo RFP",
+      "Hieu luc 30 ngay",
+      "Thanh toan 50/50",
+      "Giao hang 30-45 ngay",
+      "Bao hanh 12 thang"
+    ],
+    "dung_o_dau": "10-project/BIDV/03-bao-gia/"
+  },
+  "bao_gia_robot_phuc_vu_sh1_2026_10_28": {
+    "ngay_chot": "2026-10-28",
+    "nguon": "Anh Phan Duy Truong dua truc tiep 28/10/2026 khi dat lam landing bao gia: BellaBot Pro 165tr + 8% VAT, BellaBot 135tr + 8% VAT, PuduBot 2 120tr + 8% VAT (bao gom tram sac tu dong), PUDU SH1 80tr + 8% VAT — mua kem 1 robot phuc vu giam con 65tr + 8% VAT",
+    "loai": "Bang gia dung chung, MUA DUT, khong gan khach cu the. Ro rang CHUA gom VAT 8%. Khong ghi thoi han hieu luc.",
+    "hang_muc": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 165000000,
+        "vat_8_vnd": 13200000,
+        "tong_da_vat_vnd": 178200000
+      },
+      {
+        "san_pham": "BellaBot",
+        "gia_chua_vat_vnd": 135000000,
+        "vat_8_vnd": 10800000,
+        "tong_da_vat_vnd": 145800000
+      },
+      {
+        "san_pham": "PuduBot 2",
+        "ghi_chu": "Gia DA GOM tram sac tu dong",
+        "gia_chua_vat_vnd": 120000000,
+        "vat_8_vnd": 9600000,
+        "tong_da_vat_vnd": 129600000
+      },
+      {
+        "san_pham": "PUDU SH1 — gia niem yet (mua le)",
+        "gia_chua_vat_vnd": 80000000,
+        "vat_8_vnd": 6400000,
+        "tong_da_vat_vnd": 86400000
+      },
+      {
+        "san_pham": "PUDU SH1 — gia uu dai khi mua kem 01 robot phuc vu",
+        "gia_chua_vat_vnd": 65000000,
+        "vat_8_vnd": 5200000,
+        "tong_da_vat_vnd": 70200000
+      }
+    ],
+    "doi_chieu": "BellaBot Pro 165 + BellaBot 135 trung 'bang_gia_landing_le_tan_phuc_vu_2026_10_02'. PuduBot 2 120 trung niem yet 'bao_gia_doi_tac_3s_2026_10_27'. SH1 niem yet 80tr la MUC MOI (truoc: 65tr bang 04/08, 75tr Uri Palace 04/09); 65tr nay la gia uu dai khi mua kem.",
+    "chua_ro": "Mot robot phuc vu duoc kem may SH1 gia uu dai — landing chi ghi 'khi mua kem 01 robot phuc vu', chua ghi ti le 1:1 hay gioi han so luong.",
+    "dung_o_dau": "cloudflare/bao-gia-robot-phuc-vu/ · ho so 10-project/_Ban-dung-chung/bao-gia-robot-phuc-vu/HO-SO.md"
+  },
+  "bao_gia_conasi_2026_10_28": {
+    "ngay_chot": "2026-10-28",
+    "nguon": "Anh Phan Duy Trường cấp trực tiếp 28/10/2026 trong đề bài làm landing + báo giá cho khách Conasi (showroom LumiHub, Republic Plaza, 18E Cộng Hòa, TP.HCM)",
+    "loai": "Giá riêng cho khách Conasi — mua đứt, 01 máy mỗi dòng",
+    "vat": "8%, tính riêng. Giá dưới đây CHƯA gồm VAT.",
+    "hieu_luc": "15 ngày kể từ 28/10/2026, đến hết 12/11/2026 (theo mẫu báo giá 2 gói BellaBot 12/10 — anh Trường chưa nói rõ)",
+    "mua_dut": [
+      {
+        "san_pham": "BellaBot Pro",
+        "gia_chua_vat_vnd": 165000000,
+        "vat_8_vnd": 13200000,
+        "tong_da_vat_vnd": 178200000,
+        "bao_gom": "Robot + trạm sạc · bảo hành 12 tháng PUDU"
+      },
+      {
+        "san_pham": "Gausium Phantas",
+        "gia_chua_vat_vnd": 250000000,
+        "vat_8_vnd": 20000000,
+        "tong_da_vat_vnd": 270000000,
+        "bao_gom": "Robot + trạm sạc tự động (sạc + cấp nước + xả nước, theo xác nhận Holaco 15/09) · bảo hành theo chính sách Gausium"
+      }
+    ],
+    "tong": {
+      "chua_vat_vnd": 415000000,
+      "vat_8_vnd": 33200000,
+      "tong_da_vat_vnd": 448200000
+    },
+    "lech_voi_ban_truoc": "BellaBot Pro 165 tr THẤP HƠN mức niêm yết 180 tr (bao_gia_2026_08_20) — trùng mức 165 tr của bảng 30/07 và landing bao-gia-robot-nha-hang 28/10. Phantas 250 tr trùng Uri Palace 04/09 (280 tr bảng 03/08 · 270 tr gốc Holaco 15/09).",
+    "dung_o_dau": "10-project/Conasi/03-bao-gia/ (PDF) · https://lp-conasi-robot.pages.dev#bao-gia (landing)",
+    "chua_chot": [
+      "Hiệu lực 15 ngày (tự đặt theo mẫu)",
+      "Phantas có kèm trạm sạc tự động cấp/xả nước không — đang ghi là có",
+      "Bảo hành Phantas 12 tháng như PUDU không (câu hỏi cũ chưa có trả lời)"
+    ]
+  },
+  "bao_gia_uy_vu_2026_11_02": {
+    "ngay_chot": "2026-11-02",
+    "nguon": "Anh Phan Duy Trường cấp trực tiếp 02/11/2026 khi đặt làm báo giá cho Uy Vũ",
+    "ap_dung": "Riêng Truyền thông Uy Vũ: thuê 01 GreetingBot Nova, 01 ngày Chủ nhật. Toàn bộ chưa gồm VAT 8%.",
+    "hang_muc": [
+      {"muc": "Thuê robot GreetingBot Nova", "don_vi": "01 máy · 01 ngày", "gia_chua_vat_vnd": 6000000},
+      {"muc": "Nhân sự kỹ thuật trực ngày Chủ nhật", "don_vi": "01 người · 01 ngày", "gia_chua_vat_vnd": 2000000, "ghi_chu": "Mức ngày thường ở gia_nova_2026_08_10 là 1.000.000"},
+      {"muc": "Vận chuyển 2 chiều", "don_vi": "01 gói", "gia_chua_vat_vnd": 500000},
+      {"muc": "Hỗ trợ setup trước chương trình", "don_vi": "trước mốc 5h", "gia_chua_vat_vnd": 0, "mien_phi": true},
+      {"muc": "Setup phát sinh sau mốc 5h", "don_vi": "04 tiếng", "gia_chua_vat_vnd": 500000, "ghi_chu": "Tính theo thực tế, không nằm trong tổng"}
+    ],
+    "cong_chua_vat_vnd": 8500000,
+    "chiet_khau_agency_vnd": 2500000,
+    "sau_chiet_khau_chua_vat_vnd": 6000000,
+    "vat_8_vnd": 480000,
+    "tong_da_vat_vnd": 6480000,
+    "dung_o_dau": "10-project/Truyen-Thong-Uy-Vu/03-bao-gia/ (PDF)",
+    "chua_chot": [
+      "Chiết khấu agency 2.500.000 (anh Trường sửa từ 2.000.000 ngày 03/11/2026) đang trừ trước VAT",
+      "Mốc 'trước 5h' đang hiểu là 17h00",
+      "Trực Chủ nhật đang hiểu là 01 người",
+      "Hiệu lực 15 ngày (theo mẫu các báo giá trước)",
+      "Có hiện cập nhật dữ liệu AI miễn phí theo gia_nova_2026_08_10; phạm vi vận chuyển ghi nội thành Hà Nội hoặc TP.HCM theo cùng nguồn"
+    ]
+  }
+}

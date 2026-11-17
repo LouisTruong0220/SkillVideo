@@ -1,0 +1,374 @@
+{
+  "_meta": {
+    "mo_ta": "Thông số kỹ thuật chuẩn hóa các dòng robot Duy Trường Robot bán. Dùng làm nguồn số liệu DUY NHẤT khi dựng video — không tự bịa thông số.",
+    "cap_nhat": "2026-07-24",
+    "nguon": [
+      "01-source-data/02-pricing/bao-gia-robot-phuc-vu-nha-hang-2026-07.pdf",
+      "01-source-data/01-product-specs/roboworld-catalog-toan-bo-san-pham-VN.pdf",
+      "01-source-data/03-proposals/catalog-giai-phap-robot-nha-hang-golden-gate.docx",
+      "01-source-data/03-proposals/catalogue-bellabot-pro-hanh-chinh-cong.pdf"
+    ],
+    "luu_y": "Mọi thông số trích từ tài liệu chính hãng PUDU Robotics. Khi lên hình con số nào, đối chiếu lại file nguồn tương ứng."
+  },
+  "dong_chu_luc": [
+    "bellabot-pro",
+    "bellabot",
+    "pudubot-2"
+  ],
+  "san_pham": {
+    "bellabot-pro": {
+      "ten": "BellaBot Pro",
+      "hang": "PUDU Robotics",
+      "phan_khuc": "Premium — cao cấp nhất dòng robot phục vụ",
+      "tagline": "Màn quảng cáo 18.5\" + AI Voice",
+      "gia_mua_dut_vnd": 155000000,
+      "gia_hien_thi": "155.000.000 đ",
+      "gia_ghi_chu": "Đã bao gồm robot & bàn giao · bảo hành theo chính sách hãng",
+      "thong_so": {
+        "kich_thuoc_mm": "570 × 550 × 1290",
+        "trong_luong_kg": 55,
+        "tai_trong": "Tối đa 40 kg (10 kg/khay)",
+        "so_khay": "4 khay có đèn LED",
+        "kich_thuoc_khay_mm": "410 × 500",
+        "man_hinh": "Mặt mèo biểu cảm + LCD 10.1\" + LCD quảng cáo 18.5\"",
+        "dinh_vi": "VSLAM + Marker + Lidar SLAM",
+        "kha_nang_map_m2": 200000,
+        "loi_di_toi_thieu_cm": 65,
+        "toc_do_ms": "0.2 – 1.2 (điều chỉnh được)",
+        "pin": "25.6 Ah · tháo rời nhanh",
+        "thoi_gian_sac_h": 4.5,
+        "thoi_gian_hoat_dong_h": "≈ 11 (không tải)",
+        "dieu_phoi_da_robot": "Tối đa 20 robot cùng lúc",
+        "che_do_van_hanh": [
+          "Delivery",
+          "Recycle",
+          "Cruise",
+          "Guide",
+          "Birthday"
+        ],
+        "tuong_tac": "Giọng nói · ánh sáng · xoa tai · chạm lưng · chào hỏi"
+      },
+      "diem_ban_hang": [
+        "Màn 18.5\" = kênh truyền thông tại bàn: chạy video ưu đãi, món signature → tăng upsell mà không tốn chi phí quảng cáo ngoài",
+        "Lối đi 65 cm — hẹp nhất phân khúc BellaBot, vào được không gian BellaBot thường không vào nổi",
+        "Định vị thương hiệu premium & first-mover, tạo hiệu ứng viral tự nhiên với nhóm gia đình & Gen Z"
+      ],
+      "phu_hop_voi": [
+        "Chuỗi nhà hàng cao cấp, định vị premium (buffet cao cấp, nhà hàng Á Đông tinh tế)",
+        "Không gian rộng > 200 m², nhiều khu vực, lưu lượng khách cao",
+        "Chuỗi triển khai số lượng lớn cần map siêu rộng & điều phối đa robot",
+        "Ngoài F&B: Trung tâm Phục vụ Hành chính công (vai trò lễ tân AI, dẫn đường)"
+      ],
+      "media": {
+        "anh_studio": [
+          "02-media/san-pham/bellabot-pro/anh-studio/bellabot-pro-studio-01.png",
+          "02-media/san-pham/bellabot-pro/anh-studio/bellabot-pro-banner-san-pham.png  ⚠ LA BELLABOT THUONG, khong dung cho Pro (15/09/2026)",
+          "02-media/san-pham/bellabot-pro/anh-studio/bellabot-pro-tuong-tac-da-robot.png"
+        ],
+        "anh_thuc_te": [
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-su-kien-wincommerce.jpg",
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-van-phong-chinh-phu.jpg",
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-trien-lam-de-an-06.jpg",
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-su-kien-ngan-hang-cake-01.jpg"
+        ],
+        "video": [
+          "02-media/san-pham/bellabot-pro/video/bellabot-pro-su-kien-ngan-hang-cake.mp4",
+          "02-media/san-pham/bellabot-pro/video/bellabot-pro-meta-growth-summit-2026.mp4",
+          "02-media/cong-ty/phong-van-khach-hang/phong-van-khach-hang-theone-tai-vec.mp4"
+        ]
+      }
+    },
+    "bellabot": {
+      "ten": "BellaBot",
+      "hang": "PUDU Robotics",
+      "phan_khuc": "Phổ biến nhất — dòng chủ lực Golden Gate",
+      "tagline": "Mặt mèo viral · 4 khay 40kg · pin tháo rời 12–24h",
+      "gia_mua_dut_vnd": 140000000,
+      "gia_hien_thi": "140.000.000 đ",
+      "gia_ghi_chu": "Đã bao gồm robot & bàn giao · bảo hành theo chính sách hãng",
+      "thong_so": {
+        "kich_thuoc_mm": "565 × 537 × 1290",
+        "trong_luong_kg": 55,
+        "tai_trong": "Tối đa 40 kg (10 kg/khay)",
+        "so_khay": "4 khay",
+        "kich_thuoc_khay_mm": "410 × 500",
+        "khoang_cach_khay_mm": "230 / 200 / 200 / 180 (trên xuống dưới)",
+        "man_hinh": "Mặt mèo biểu cảm + màn lưới thông minh mặt sau",
+        "dinh_vi": "Dual SLAM — Visual SLAM & Laser SLAM (Marker & Laser Positioning)",
+        "loi_di_toi_thieu_cm": 70,
+        "toc_do_ms": "0.5 – 1.2 (điều chỉnh được)",
+        "pin": "25.2V / 25.6 Ah · tháo rời nhanh",
+        "thoi_gian_sac_h": 4.5,
+        "thoi_gian_hoat_dong_h": "12 – 24 (pin thay thế được)",
+        "dieu_phoi_da_robot": "Tối đa 20 robot cùng lúc",
+        "goc_leo_doc": "≤ 5°",
+        "cam_bien": "3 camera RGBD · quét trước 192.64° · phát hiện vật cản > 10 m · phản hồi 0.5 s · 5400 lần quét/phút",
+        "che_do_van_hanh": [
+          "Giao hàng",
+          "Trả bát đĩa",
+          "Chào hỏi",
+          "Sinh nhật",
+          "Tự hành (Cruise)",
+          "Trực tiếp"
+        ],
+        "vat_lieu": "Nhựa ABS công nghiệp & hợp kim nhôm hàng không"
+      },
+      "diem_ban_hang": [
+        "Dòng đã kiểm chứng ở quy mô lớn — chủ lực trong 200+ nhà hàng Golden Gate, mô hình vận hành đã chuẩn hóa, dễ nhân rộng",
+        "Pin tháo rời chạy 12–24h: thay pin trong vài giây, phục vụ liên tục suốt giờ cao điểm không phải dừng sạc",
+        "Mặt mèo viral — khách gia đình & trẻ em tự chụp ảnh/quay clip, quảng bá tự nhiên trên mạng xã hội"
+      ],
+      "phu_hop_voi": [
+        "Chuỗi tầm trung – cao cấp đã có tệp khách ổn định",
+        "Nhà hàng có khách gia đình & trẻ em (tương tác cảm ứng tai/đầu)",
+        "Mô hình lẩu, nướng, buffet cần tải trọng tốt và pin chạy liên tục"
+      ],
+      "media": {
+        "anh_studio": [
+          "02-media/san-pham/bellabot/anh-studio/bellabot-mat-meo-close-up.png",
+          "02-media/san-pham/bellabot/anh-studio/bellabot-golden-gate-key-visual.png"
+        ],
+        "anh_thuc_te": [
+          "02-media/san-pham/bellabot/anh-thuc-te/bellabot-phuc-vu-nha-hang-khach-gia-dinh.jpg",
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-decal-nha-hang-loi-di.jpg",
+          "02-media/san-pham/bellabot-pro/anh-thuc-te/bellabot-pro-nha-hang-san-caro.jpg"
+        ],
+        "video": [
+          "02-media/san-pham/bellabot/video/bellabot-gourmet-market-thailand.mp4",
+          "02-media/san-pham/bellabot/video/bellabot-su-kien-a80.mp4"
+        ]
+      }
+    },
+    "pudubot-2": {
+      "ten": "PuduBot 2",
+      "hang": "PUDU Robotics",
+      "phan_khuc": "Đa năng phổ thông — chi phí đầu tư hợp lý nhất",
+      "tagline": "Sạc tự động 24/7 · nhẹ 39 kg",
+      "gia_mua_dut_vnd": 115000000,
+      "gia_hien_thi": "115.000.000 đ",
+      "gia_ghi_chu": "Đã bao gồm robot & bàn giao · bảo hành theo chính sách hãng",
+      "thong_so": {
+        "kich_thuoc_mm": "580 × 535 × 1290",
+        "trong_luong_kg": 39,
+        "tai_trong": "Tối đa 40 kg (13 kg/khay)",
+        "so_khay": "3 khay",
+        "kich_thuoc_khay_mm": "520 × 432",
+        "man_hinh": "LCD 10.1\" tương tác",
+        "dinh_vi": "PUDU VSLAM+ & Laser SLAM",
+        "kha_nang_map_m2": 40000,
+        "loi_di_toi_thieu_cm": 80,
+        "toc_do_ms": "0.5 – 1.2 (điều chỉnh được)",
+        "thoi_gian_sac_h": 4,
+        "thoi_gian_hoat_dong_h": "12 (đầy tải) / 15 (không tải)",
+        "phuong_thuc_sac": "Sạc bằng dây hoặc tự động về trạm",
+        "dieu_phoi_da_robot": "Tối đa 20 robot cùng lúc"
+      },
+      "diem_ban_hang": [
+        "Chi phí đầu tư hợp lý nhất dải sản phẩm — rào cản đầu tư thấp, khấu hao nhanh",
+        "Sạc tự động, vận hành 24/7 — robot tự về trạm khi pin thấp, không cần nhân viên thay pin thủ công",
+        "Nhẹ 39 kg, linh hoạt triển khai, thích ứng nền có dốc nhẹ"
+      ],
+      "phu_hop_voi": [
+        "Nhà hàng quy mô vừa cần giải pháp vận chuyển hiệu quả với chi phí hợp lý",
+        "Quán cà phê, chuỗi mới muốn thử nghiệm trước khi mở rộng",
+        "Môi trường có thể vương vãi nước, dầu mỡ nhẹ"
+      ],
+      "media": {
+        "anh_studio": [
+          "02-media/san-pham/pudubot-2/anh-studio/pudubot2-studio-doi-2-may.jpg"
+        ],
+        "anh_thuc_te": [],
+        "video": []
+      }
+    },
+    "kettybot-pro": {
+      "ten": "KettyBot Pro",
+      "hang": "PUDU Robotics",
+      "phan_khuc": "Quảng cáo + lễ tân — 3 trong 1: giao món, dẫn đường, marketing",
+      "tagline": "Lối đi cực hẹp 52 cm · màn quảng cáo 18.5\"",
+      "gia_mua_dut_vnd": null,
+      "gia_hien_thi": "Liên hệ báo giá",
+      "gia_ghi_chu": "Chưa có trong bảng báo giá 07/2026 — cần xác nhận với Roboworld trước khi lên hình",
+      "thong_so": {
+        "kich_thuoc_mm": "435 × 450 × 1120",
+        "trong_luong_kg": 38,
+        "tai_trong": "10 kg/khay",
+        "so_khay": "3 khay",
+        "kich_thuoc_khay_mm": "352 × 340",
+        "khoang_cach_khay_mm": "247.9 / 253 / 223",
+        "man_hinh": "Màn quảng cáo 18.5\" mặt trước",
+        "dinh_vi": "Dual SLAM — Laser SLAM & Visual SLAM",
+        "loi_di_toi_thieu_cm": 52,
+        "toc_do_ms": "0.2 – 1.2 (điều chỉnh được)",
+        "thoi_gian_sac_h": 3.5,
+        "thoi_gian_hoat_dong_h": 9,
+        "phuong_thuc_sac": "Tự động về trạm (trạm sạc mua riêng)",
+        "tinh_nang_dac_biet": "Chế độ thu hút khách 3 tầng khoảng cách (3 m / 1,2 m / cận) · bám theo người · tự bật thoại khi nhận ra có người trước máy · camera mắt cá soi khay tự biết khay đã lấy hết",
+        "giong_noi": "CHỈ phát giọng nói CÀI SẴN theo kịch bản soạn trước — KHÔNG có hội thoại AI. Anh Trường chốt 20/08/2026",
+        "cam_bien": "2 cụm camera chiều sâu RGBD (cổ máy + gầm máy) dựng vùng tránh vật cản 3D · camera hồng ngoại đỉnh đầu cho V-SLAM · camera mắt cá soi khay",
+        "mau_sac": "Trắng · Đen · Vàng"
+      },
+      "diem_ban_hang": [
+        "Lối đi 52 cm — vào được không gian mà BellaBot không vào nổi",
+        "Vừa vận chuyển vừa làm lễ tân đón khách vừa chạy quảng cáo trên màn 18.5\"",
+        "Chủ động thu hút khách: bám theo người, tự bật thoại khi nhận diện khuôn mặt"
+      ],
+      "phu_hop_voi": [
+        "Nhà hàng lối đi rất hẹp",
+        "Quán cà phê, trà sữa, nhà hàng vừa và nhỏ",
+        "Mô hình đặt nặng vai trò quảng cáo & upsell tại bàn"
+      ],
+      "media": {
+        "anh_studio": [
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-ba-mau-studio.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-chinh-dien.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-nghieng-mau-trang.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-nghieng-mau-den.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-nghieng-mau-vang.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-mat-sau.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-khay-va-thung-thu-hoi.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-minh-hoa-loi-di-52cm.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-minh-hoa-dieu-huong.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-minh-hoa-camera-khay.png",
+          "02-media/san-pham/kettybot-pro/anh-studio/kettybot-pro-2-mau-vang-trang-studio.png"
+        ],
+        "anh_thuc_te": [
+          "02-media/san-pham/kettybot-pro/anh-thuc-te/kettybot-pro-duong-sat-viet-nam-toa-vip.jpg"
+        ],
+        "video": [
+          "02-media/san-pham/kettybot-pro/video/kettybot-pro-demo-720p.mp4"
+        ]
+      },
+      "canh_bao": [
+        "KHÔNG viết 'robot trò chuyện AI' cho dòng này. Tài liệu hãng ghi 'AI Voice Interaction' nhưng bản chạy tại Việt Nam chỉ phát nội dung cài sẵn. Cần hỏi - đáp AI thì phải phát triển phần mềm nâng cao qua PUDU Open Platform, hoặc dùng GreetingBot Nova.",
+        "Chưa có giá trong bảng chốt 30/07/2026 — mọi tài liệu gửi ra ngoài ghi 'liên hệ báo giá'."
+      ],
+      "khach_hang_da_dung": [
+        {
+          "don_vi": "Tổng công ty Đường sắt Việt Nam",
+          "boi_canh": "Thử nghiệm phục vụ hành khách trên toa VIP 34 chỗ — đón khách, dẫn chỗ ngồi, giới thiệu dịch vụ, chuyển đồ ăn. Khai thác thương mại từ tháng 6/2026",
+          "ngay": "2026-05-29",
+          "nguon": "Báo điện tử Chính phủ — 'Đường sắt thử nghiệm robot công nghệ AI phục vụ đón khách trên tàu', baochinhphu.vn"
+        }
+      ],
+      "tai_lieu": [
+        "10-project/_Ban-dung-chung/catalogue-kettybot-pro-su-kien/ — catalogue 14 trang cho sự kiện"
+      ]
+    },
+    "greetingbot-nova": {
+      "ten": "GreetingBot Nova",
+      "hang": "OrionStar",
+      "phan_khuc": "Robot lễ tân & hướng dẫn AI",
+      "tagline": "Lễ tân AI đa ngôn ngữ · màn 14\" Full HD",
+      "gia_mua_dut_vnd": null,
+      "gia_hien_thi": "Liên hệ báo giá",
+      "thong_so": {
+        "kich_thuoc_mm": "558 × 525 × 1350",
+        "trong_luong_kg": 56,
+        "man_hinh": "14 inch, Full HD 1080",
+        "he_dieu_hanh": "Android 9.0",
+        "camera_dau": "13 MP × 1",
+        "cam_bien": "LiDAR × 1 · camera chiều sâu × 3 · fisheye × 2 · hồng ngoại định vị sạc × 2 · odometer · IMU",
+        "toc_do_ms": "0.5 – 1.2 (điều chỉnh được)",
+        "thoi_gian_hoat_dong_h": "12 – 14",
+        "thoi_gian_sac_h": 4.5,
+        "phuong_thuc_sac": "Dock sạc tự động hoặc cáp",
+        "ket_noi": "Wi-Fi 2.4G / 5G, 4G"
+      },
+      "diem_ban_hang": [
+        "Chào đón, cung cấp thông tin và dẫn đường trong triển lãm, bảo tàng, sự kiện, khách sạn, TTTM",
+        "Tương tác giọng nói đa ngôn ngữ tích hợp AI",
+        "Nhận diện người và tự động về sạc"
+      ],
+      "phu_hop_voi": [
+        "Sảnh lễ tân văn phòng",
+        "Triển lãm & sự kiện",
+        "Trung tâm thương mại, bán lẻ"
+      ],
+      "media": {
+        "anh_studio": [
+          "02-media/san-pham/greetingbot-nova/anh-studio/greetingbot-nova-studio-nen-den.png",
+          "02-media/san-pham/greetingbot-nova/anh-studio/greetingbot-nova-key-visual-ai-thong-minh.jpg"
+        ],
+        "anh_thuc_te": [
+          "02-media/san-pham/greetingbot-nova/anh-thuc-te/greetingbot-nova-benh-vien-uong-bi.jpg",
+          "02-media/san-pham/greetingbot-nova/anh-thuc-te/greetingbot-nova-phong-kham-le-tan.jpg",
+          "02-media/san-pham/greetingbot-nova/anh-thuc-te/greetingbot-nova-phong-kham-tham-my.jpg"
+        ],
+        "video": [
+          "02-media/san-pham/greetingbot-nova/video/greetingbot-nova-office-reception.mp4",
+          "02-media/san-pham/greetingbot-nova/video/greetingbot-nova-shopping-guide-thailand.mp4",
+          "02-media/san-pham/greetingbot-nova/video/greetingbot-nova-benh-vien-gia-dinh-thvl1.mp4"
+        ]
+      }
+    }
+  },
+  "bang_so_sanh_nhanh": {
+    "ghi_chu": "Dùng cho frame so sánh trong video. Số liệu khớp với bảng trong catalog Golden Gate.",
+    "cot": [
+      "Thông số",
+      "BellaBot",
+      "BellaBot Pro",
+      "PuduBot 2",
+      "KettyBot Pro"
+    ],
+    "hang": [
+      [
+        "Phân khúc",
+        "Cao cấp",
+        "Premium nhất",
+        "Đa năng phổ thông",
+        "Quảng cáo + lễ tân"
+      ],
+      [
+        "Trọng lượng",
+        "55 kg",
+        "55 kg",
+        "39 kg",
+        "38 kg"
+      ],
+      [
+        "Tải trọng tối đa",
+        "40 kg (10 kg/khay)",
+        "40 kg (10 kg/khay)",
+        "40 kg (13 kg/khay)",
+        "10 kg/khay"
+      ],
+      [
+        "Số khay",
+        "4 khay",
+        "4 khay (đèn LED)",
+        "3 khay",
+        "3 khay"
+      ],
+      [
+        "Màn hình",
+        "Mặt mèo biểu cảm",
+        "Mặt + màn 18.5\" quảng cáo",
+        "10.1\" tương tác",
+        "Màn quảng cáo 18.5\""
+      ],
+      [
+        "Lối đi tối thiểu",
+        "70 cm",
+        "65 cm",
+        "80 cm",
+        "52 cm"
+      ],
+      [
+        "Pin",
+        "Tháo rời nhanh",
+        "Tháo rời nhanh",
+        "Sạc tự động 24/7",
+        "Sạc tự động"
+      ],
+      [
+        "Giá mua đứt",
+        "140 triệu",
+        "155 triệu",
+        "115 triệu",
+        "Liên hệ"
+      ]
+    ]
+  }
+}
