@@ -23,6 +23,7 @@ nên **chép cả thư mục này vào gốc dự án** (không chép riêng `.c
 tools/make-video.py · build-frame.py · render-video.mjs · prep-assets.py · anh-scene.py   dây chuyền video-roboworld
 tools/elevenlabs/                   sinh giọng đọc (doc-kich-ban.py), nhân bản giọng, hướng dẫn
 tools/video-tho/                    dây chuyền dung-video-tho (Python + HyperFrames) — xem README riêng trong đó
+tools/remotion/                     dự án Remotion (React) dựng bảng đồ hoạ nửa trên + ảnh bìa — mẫu video 011, 012
 00-brand/                           font nhúng base64 + brand-tokens.css (build-frame.py cần)
 03-knowledge/                       nguồn số liệu: products.json · pricing.json · proof-points.json · văn mẫu · brand voice
 04-video-projects/_template/        khuôn brief / storyboard cho dự án video mới
@@ -66,6 +67,17 @@ python am-thanh.py tai-lai       # tải lại hiệu ứng âm thanh theo muc-l
 ```
 Mô hình whisper `large-v3-turbo` (~1,6 GB) tự tải vào `tools/video-tho/models/` ở lần chạy đầu.
 Mô hình dò mặt YuNet đã có sẵn trong `models/`.
+
+### 3. Remotion (tuỳ chọn — chỉ cho video kênh cá nhân)
+
+```powershell
+cd <goc-du-an>\tools\remotion
+npm install                      # remotion 4.x + react 19
+npx remotion studio src/index.ts # xem trước cảnh mẫu v011 / v012
+node scripts/v012.mjs            # dựng các cảnh của video 012 (mẫu để chép sang vNNN)
+```
+Cách dùng trong quy trình: `.claude/skills/dung-video-tho/references/remotion.md`.
+⚠ Giấy phép Remotion miễn phí cho cá nhân — video kênh / tài liệu công ty Roboworld phải mua bản quyền.
 
 ## Dùng
 
